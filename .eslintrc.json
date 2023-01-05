@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env":{
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-essential"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "eqeqeq": ["error", "always"],
+    "no-constant-condition": ["error", { "checkLoops": false }],
+    "camelcase": "warn",
+    "no-unused-vars": "warn",
+
+    "vue/multi-word-component-names": ["off"]
+  }
+}
