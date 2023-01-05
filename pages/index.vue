@@ -5,8 +5,9 @@
 </script>
 
 <template>
-    <div>
-      <h1>Hello!</h1>
+  <div id="page" class="min-h-screen test">
+    <div id="content" class="mx-auto w-fit">
+      <h1>NitroGuy</h1>
       <Cool />
       <Cool />
       <Cool />
@@ -18,4 +19,5 @@
       </ul>
   
     </div>
+  </div>
 </template>

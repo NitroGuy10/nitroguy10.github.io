@@ -16,9 +16,12 @@ export default defineNuxtConfig({
             ]
         }
     },
+    css: [
+        "@/assets/styles/main.css"
+    ],
     nitro: {
         output: {
-            publicDir: "../docs"
+            publicDir: "@/docs"
         }
     }
 });

@@ -6,7 +6,7 @@
     "generate": "npm run lint && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint app.vue ./{components,pages}/**/*.{vue,js,cjs,mjs,ts,cts,mts}"
+    "lint": "eslint app.vue \"./{components,pages}/**/*.{vue,js,cjs,mjs,ts,cts,mts}\""
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
