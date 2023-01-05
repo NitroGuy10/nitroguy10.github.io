@@ -15,5 +15,10 @@ export default defineNuxtConfig({
                 { name: "description", content: "NitroGuy's Website" }
             ]
         }
+    },
+    nitro: {
+        output: {
+            publicDir: "../docs"
+        }
     }
 });

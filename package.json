@@ -3,7 +3,7 @@
   "scripts": {
     "build": "npm run lint && nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "npm run lint && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint app.vue ./{components,pages}/**/*.{vue,js,cjs,mjs,ts,cts,mts}"

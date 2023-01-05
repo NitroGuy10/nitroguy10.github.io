@@ -1,7 +1,5 @@
 <script lang="ts" setup>
-    let date = new Date();
-    //date = 123;
-
+    let date = 123;
 
 </script>
 
