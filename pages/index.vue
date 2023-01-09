@@ -1,26 +1,22 @@
 <script lang="ts" setup>
   const SONGS = ["Candy_Fractals", "Soaring", "Endless"];
 
-
+  // definePageMeta({ layout: "custom" });
 </script>
 
 <template>
-  <div id="root">
-  <Body class="bg-zinc-800 text-zinc-300" />
-    <div id="page">
-      <div id="content" class="mx-auto max-w-4xl">
-        <h1 class="text-9xl font-bold text-center">NitroGuy</h1>
-        <p>text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and </p>
-        <Cool num="1" />
-        <Cool num="2" />
-        <Cool num="3" />
-        <Cool num="4" />
-        <Cool num="5" punct="!!!" />
-
-        <ul>
-          <li v-for="song of SONGS"><NuxtLink :to="'./songs/' + song" class="text-blue-400 underline">{{ song }}</NuxtLink></li>
-        </ul>
-      </div>
+  <div id="index">
+    <div id="about-me">
+      <p>Hi there!</p>
+      <p>I'm NitroGuy. Currently, I am a human who lives on Earth. My hobbies include programming, producing music, editing videos, playing video games, and sleeping.</p>
+      <p>I am highly interested in computer science and software development. I would call myself a "full-stack web developer" as of now but I am very eager to explore other facets of computer science. I've been coding since 2015 and I am proficient in Java, Python, HTML, CSS, JavaScript, TypeScript, C++, and C#. If you want to read more about my work, check out my <NuxtLink class="underline">GitHub</NuxtLink> or read my personal commentary on the <NuxtLink class="underline">projects</NuxtLink> I've made.</p>
+      <p>I am chronically addicted to music. I love playing, producing, and listening to music. I've loved a variety of genres over the years but right now I am most fixated on <NuxtLink to="/tangents/dubstep-subgenres" class="underline">dubstep</NuxtLink> and EDM.</p>
+      <p>I love and am endlessly inspired by the worlds that video games create. They have been a massive part of my life but I hardly ever play them anymore and I want to get back into them! Some of my all-time favorites include Minecraft, Factorio, Terraria, Team Fortress 2, Overwatch, the Ace Attorney series, Stardew Valley and <NuxtLink to="/tangents/favorite-games" class="underline">more</NuxtLink>.</p>
+      <p><NuxtLink to="https://en.pronouns.page/he" class="underline">he/him</NuxtLink></p>
     </div>
+
+    <ul>
+      <li v-for="song of SONGS"><NuxtLink :to="'./songs/' + song" class="text-blue-400 underline">{{ song }}</NuxtLink></li>
+    </ul>
   </div>
 </template>
