@@ -1,8 +1,12 @@
 <script lang="ts" setup>
-  let date = 123;
+  const props = defineProps<{
+    num: string,
+    punct?: string
+  }>();
+
 
 </script>
 
 <template>
-  <p class="text-green-400">Cool! {{ date }}</p>
+  <p class="text-green-400">Cool! {{ props.num }} <span :v-if="punct">{{ props.punct }}</span></p>
 </template>

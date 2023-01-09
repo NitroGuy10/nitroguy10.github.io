@@ -5,25 +5,21 @@
 </script>
 
 <template>
-  <div id="root" class="">
-    <div id="background" class="min-h-screen double-gradient-bluegreen dark:double-gradient-redorange transition duration-[3000]">
-      <div id="page" class="min-h-screen mx-auto w-[95%] p-10 shadow-2xl bg-white dark:bg-zinc-700 dark:text-zinc-200 transition duration-[3000]">  
-        <div id="content" class="mx-auto max-w-4xl">
-          <h1>NitroGuy</h1>
-          <p>text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and </p>
-          <Cool />
-          <Cool />
-          <Cool />
-          <Cool />
-          <Cool />
+  <Body class="bg-zinc-800 text-zinc-300"></Body>
+  <div id="root">
+    <div id="page">  
+      <div id="content" class="mx-auto max-w-4xl">
+        <h1 class="text-9xl font-bold text-center">NitroGuy</h1>
+        <p>text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and text and </p>
+        <Cool num="1"/>
+        <Cool num="2"/>
+        <Cool num="3"/>
+        <Cool num="4"/>
+        <Cool num="5" punct="!!!"/>
 
-          <ul>
-            <li v-for="song of SONGS"><NuxtLink :to="'./songs/' + song" class="text-blue-400 underline">{{ song }}</NuxtLink></li>
-          </ul>
-
-          <button class="border-2 border-black rounded-lg">background</button>
-      
-        </div>
+        <ul>
+          <li v-for="song of SONGS"><NuxtLink :to="'./songs/' + song" class="text-blue-400 underline">{{ song }}</NuxtLink></li>
+        </ul>
       </div>
     </div>
   </div>
