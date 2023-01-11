@@ -5,6 +5,7 @@
       <NameHeader name="NitroGuy" href="/" />
       <div id="content" class="mx-auto max-w-4xl text-2xl">
         <slot />
+        <br class="mt-10">
       </div>
     </div>
   </div>

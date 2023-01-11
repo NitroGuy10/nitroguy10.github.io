@@ -1,0 +1,86 @@
+{
+    "socials": {
+        "website": {
+            "type": "Website",
+            "link": "https://nitroguy10.github.io"
+        },
+        "email": {
+            "type": "Email",
+            "address": "nitroguysm(at)gmail.com"
+        },
+        "soundcloud": {
+            "type": "SoundCloud",
+            "link": "https://soundcloud.com/the-sass-music",
+            "icon": "icons/soundcloud.png"
+        },
+        "youtube": {
+            "type": "YouTube",
+            "link": "https://www.youtube.com/TheSassMusic",
+            "icon": "icons/youtube.png"
+        },
+        "github": {
+            "type": "GitHub",
+            "link": "https://github.com/NitroGuy10",
+            "icon": "icons/github.png"
+        },
+        "twitter": {
+            "type": "Twitter",
+            "link": "https://twitter.com/NitroGuy10",
+            "icon": "icons/twitter.png"
+        },
+        "musicTwitter": {
+            "type": "Twitter",
+            "link": "https://twitter.com/The_Sass_Music",
+            "icon": "icons/twitter.png"
+        },
+        "newgrounds": {
+            "type": "Newgrounds",
+            "link": "https://thesassmusic.newgrounds.com",
+            "icon": "icons/newgrounds.png"
+        },
+        "amazonMusic": {
+            "type": "Amazon Music",
+            "icon": "icons/amazon.png"
+        },
+        "appleMusic": {
+            "type": "Apple Music",
+            "link": "about:blank",
+            "icon": "icons/apple_music.png"
+        },
+        "deezer": {
+            "type": "Deezer",
+            "link": "about:blank",
+            "icon": "icons/deezer.png"
+        },
+        "iHeartRadio": {
+            "type": "iHeartRadio",
+            "link": "about:blank",
+            "icon": "icons/iheartradio.png"
+        },
+        "iTunes": {
+            "type": "iTunes",
+            "link": "about:blank",
+            "icon": "icons/itunes.png"
+        },
+        "pandora": {
+            "type": "Pandora",
+            "link": "https://www.pandora.com/artist/the-sass/AR7xllXXmmfkdmq",
+            "icon": "icons/pandora.png"
+        },
+        "spotify": {
+            "type": "Spotify",
+            "link": "https://open.spotify.com/artist/37Cyay5aidIqtrWkQei3cC",
+            "icon": "icons/spotify.png"
+        },
+        "tidal": {
+            "type": "Tidal",
+            "link": "https://listen.tidal.com/artist/4792143",
+            "icon": "icons/tidal.png"
+        },
+        "bandcamp": {
+            "type": "Bandcamp",
+            "link": "about:blank",
+            "icon": "icons/bandcamp.png"
+        }
+    }
+}
