@@ -1,5 +1,7 @@
 <script lang="ts" setup>
   import discography from "@/data/song_data.json";
+
+  definePageMeta({ layout: "music" });
 </script>
 
 <template>
