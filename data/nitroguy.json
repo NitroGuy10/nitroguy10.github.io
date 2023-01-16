@@ -2,79 +2,96 @@
     "socials": {
         "website": {
             "type": "Website",
-            "link": "https://nitroguy10.github.io"
+            "link": "https://nitroguy10.github.io",
+            "icon": "icons/globe.png"
         },
         "email": {
             "type": "Email",
-            "address": "nitroguysm(at)gmail.com"
+            "address": "nitroguysm(at)gmail.com",
+            "icon": "icons/mail.png"
         },
         "soundcloud": {
             "type": "SoundCloud",
             "link": "https://soundcloud.com/the-sass-music",
+            "username": "@the-sass-music",
             "icon": "icons/soundcloud.png"
         },
         "youtube": {
             "type": "YouTube",
             "link": "https://www.youtube.com/TheSassMusic",
+            "username": "@TheSassMusic",
             "icon": "icons/youtube.png"
         },
         "github": {
             "type": "GitHub",
             "link": "https://github.com/NitroGuy10",
+            "username": "@NitroGuy10",
             "icon": "icons/github.png"
         },
         "twitter": {
             "type": "Twitter",
             "link": "https://twitter.com/NitroGuy10",
+            "username": "@NitroGuy10",
             "icon": "icons/twitter.png"
         },
         "musicTwitter": {
             "type": "Twitter",
+            "alternameName": "\"The Sass\" Twitter",
             "link": "https://twitter.com/The_Sass_Music",
+            "username": "@The_Sass_Music",
             "icon": "icons/twitter.png"
         },
         "newgrounds": {
             "type": "Newgrounds",
             "link": "https://thesassmusic.newgrounds.com",
+            "username": "thesassmusic",
             "icon": "icons/newgrounds.png"
         },
         "amazonMusic": {
             "type": "Amazon Music",
+            "username": "The Sass",
             "icon": "icons/amazon.png"
         },
         "appleMusic": {
             "type": "Apple Music",
             "link": "about:blank",
+            "username": "The Sass",
             "icon": "icons/apple_music.png"
         },
         "deezer": {
             "type": "Deezer",
             "link": "about:blank",
+            "username": "The Sass",
             "icon": "icons/deezer.png"
         },
         "iHeartRadio": {
             "type": "iHeartRadio",
             "link": "about:blank",
+            "username": "The Sass",
             "icon": "icons/iheartradio.png"
         },
         "iTunes": {
             "type": "iTunes",
             "link": "about:blank",
+            "username": "The Sass",
             "icon": "icons/itunes.png"
         },
         "pandora": {
             "type": "Pandora",
             "link": "https://www.pandora.com/artist/the-sass/AR7xllXXmmfkdmq",
+            "username": "The Sass",
             "icon": "icons/pandora.png"
         },
         "spotify": {
             "type": "Spotify",
             "link": "https://open.spotify.com/artist/37Cyay5aidIqtrWkQei3cC",
+            "username": "The Sass",
             "icon": "icons/spotify.png"
         },
         "tidal": {
             "type": "Tidal",
             "link": "https://listen.tidal.com/artist/4792143",
+            "username": "The Sass",
             "icon": "icons/tidal.png"
         },
         "bandcamp": {
