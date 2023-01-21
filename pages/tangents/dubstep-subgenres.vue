@@ -12,8 +12,10 @@
     </ul>
     <p>A much more fitting contender for the name "melodic dubstep" would be the kind of music <NuxtLink to="https://open.spotify.com/artist/3hMTYaexWgGkXqvbkt6EIS?si=Apc7_BXkTvWwskIh2LWH5Q" class="underline">Chime</NuxtLink> (my <em>favorite artist</em>) made from around 2015-2019. In those songs, musicality is still paramount but there's much more actual dubstep that would bring it closer to having the label of ...dubstep.</p>
     <ul class="list-disc leading-relaxed ml-16">
+      <li><NuxtLink to="https://youtu.be/RUoG8MN7aAc" class="underline">Chime - Can't Feel It</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/f-LzXbKoX6Y" class="underline">Chime - Sherwood</NuxtLink> (which is my <em>favorite song of all time</em>)</li>
       <li><NuxtLink to="https://youtu.be/pnF_Gjk9SfI" class="underline">Chime - Starstorm</NuxtLink></li>
+      <li><NuxtLink to="https://youtu.be/NTkTPFaU4Yg" class="underline">Chime - Wait For Me</NuxtLink></li>
     </ul>
     <p>For a long time, this kind of stuff was about as melodic as dubstep got. Around 2020 though, a new movement started to emerge spearheaded by none other than Chime and other artists sonically close to him. A movement that sought to combine melody and dubstep heaviness into ONE, rather than having them both exist separately within songs. The result was the sparkly, lasery, watery, and glittery subgenre of "color bass", which is still thriving and has an incredibly active community of listeners and producers.</p>
     <ul class="list-disc leading-relaxed ml-16">
