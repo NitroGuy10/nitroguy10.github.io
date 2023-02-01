@@ -17,7 +17,7 @@
 
 <template>
     <div id="NameHeader">
-        <h1 :class="mobileClass + ' text-9xl font-bold text-center mb-5'"><a :href="props.href">{{ props.name }}</a></h1>
+        <h1 :class="mobileClass + ' text-9xl font-bold text-center mb-5'"><a :href="props.href" class="no-underline">{{ props.name }}</a></h1>
     </div>
 </template>
 
