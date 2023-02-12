@@ -1,6 +1,6 @@
 <template>
   <div id="root">
-    <Body class="bg-zinc-800 text-zinc-300 overflow-y-scroll" />
+    <Body class="bg-zinc-900 text-zinc-300 overflow-y-scroll" /> <!-- bg-zinc-800 -->
     <div id="page">
       <NameHeader name="NitroGuy" href="/" />
       <div id="content" class="mx-auto p-4 max-w-4xl text-2xl">
