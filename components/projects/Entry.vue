@@ -2,10 +2,12 @@
   const props = defineProps<{
     title: string,
     timeframe: string,
-    languages: string,
+    languages?: string,
     technologies?: string,
     imageLink?: string,
-    imageAlt?: string
+    imageAlt?: string,
+    image2Link?: string,
+    image2Alt?: string
   }>();
 </script>
 
@@ -16,11 +18,14 @@
       <div>
         <h3 class="font-bold text-3xl mb-5"><a :href="'#' + title" class="no-underline hover:cursor-pointer">{{ props.title }}</a></h3>
         <p class="font-semibold">{{ props.timeframe }}</p>
-        <p class="font-semibold">{{ props.languages }}</p>
+        <p v-if="props.languages" class="font-semibold">{{ props.languages }}</p>
         <p v-if="props.technologies" class="font-semibold">{{ props.technologies }}</p>
       </div>
       <div v-if="props.imageLink">
         <img :src="props.imageLink" :alt="props.imageAlt" class="h-fit">
+      </div>
+      <div v-if="props.image2Link">
+        <img :src="props.image2Link" :alt="props.image2Alt" class="h-fit">
       </div>
     </div>
     <slot />
