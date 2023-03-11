@@ -12,14 +12,17 @@
     languages="HTML, TypeScript"
     technologies="Vue, Nuxt, TailwindCSS"
     >
-      <p>todo todo todo</p>
+      <p>It's a website! It's made with Vue and Nuxt! And Tailwind! Yaaay!!!</p>
+      <p>Um, I mean this iteration of my website is meant to be a more cohesive and clean construction than my previous one. It utilizes Vue to replace the template rending from my previous website, and Nuxt makes it all static with practically zero JavaScript in the final build!</p>
     </ProjectsEntry>
     <ProjectsEntry
     title="Heart2Heart"
     timeframe="24 February 2023 - Ongoing"
     languages="Godot/GDScript"
     >
-      <p>todo todo todo</p>
+      <p>TODO picture</p>
+      <p>Heart2Heart is a game made for the 48-hour Chillennium 2023 Game Jam. It's a cutsey puzzle platformer where you control two characters and gain abilities by touching certain words, giving your characters emotions. It was super fun to make and it won Best In Originality at the game jam!</p>
+      <p>This project would not have been possible without my amazing friends Anish, Lizzy, and Kat! I did the coding and music, Anish did the story and level design, Lizzy and Kat did the art and animations, and we all worked on the concept together. The game is made in the Godot Engine and is playable online at the link below. Give it a try!</p>
       <p><NuxtLink :to="nitroguy.socials.website.link + '/Heart2Heart'">Heart2Heart</NuxtLink></p>
       <p><NuxtLink :to="nitroguy.socials.github.link + '/Chillennium2023'">Heart2Heart (source) on GitHub</NuxtLink></p>
       <p><NuxtLink :to="nitroguy.socials.github.link + '/Heart2Heart'">Heart2Heart (hosting repo) on GitHub</NuxtLink></p>
