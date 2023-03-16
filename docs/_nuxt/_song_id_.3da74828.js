@@ -1,1 +1,0 @@
-import{a as o,m as s,b as a,e as n,t,u as r,o as c}from"./entry.5c971e7c.js";const m=o({__name:"[song_id]",setup(u){const e=s().params.song_id;return(_,i)=>(c(),a("div",null,[n("h1",null,t(r(e))+" is such a cool song!!!",1)]))}});export{m as default};
