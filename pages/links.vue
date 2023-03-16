@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-  import nitroguy from "@/data/nitroguy.json";
-  import { Social } from "@/data/types";
+  import { NitroGuy, Social } from "@/data/types";
+  import _nitroguy from "@/data/nitroguy.json";
+  const nitroguy: NitroGuy = _nitroguy;
 
   const socialsToInclude = ["youtube", "soundcloud", "spotify", "github", "twitter", "musicTwitter", "website", "email"];
-
-  const allSocials: { [key: string]: Social } = nitroguy.socials;
+  const allSocials = nitroguy.socials;
   const socials: Social[] = [];
   for (const socialName of socialsToInclude)
   {

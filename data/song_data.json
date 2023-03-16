@@ -5,13 +5,11 @@
    "collections": {
       "Singles": {
          "name": "Singles",
-         "description": "",
-         "streamLinks": {}
+         "isFormalCollection": false
       },
       "Remixes": {
          "name": "Remixes",
-         "description": "",
-         "streamLinks": {}
+         "isFormalCollection": false
       },
       "Older Tracks": {
          "name": "Older Tracks",
@@ -27,7 +25,8 @@
                "type": "SoundCloud",
                "link": "https://soundcloud.com/the-sass-music/sets/older-tracks/s-dlGxeGorVgj"
             }
-         }
+         },
+         "isFormalCollection": true
       },
       "Candy Fractals EP": {
          "name": "Candy Fractals EP",
@@ -43,7 +42,8 @@
                "type": "SoundCloud",
                "link": "https://soundcloud.com/the-sass-music/sets/candy-fractals-ep"
             }
-         }
+         },
+         "isFormalCollection": true
       }
    },
    "songs": {

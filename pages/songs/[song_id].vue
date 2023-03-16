@@ -1,10 +1,13 @@
 <script lang="ts" setup>
-  import discography from "@/data/song_data.json";
+  import { SongData } from "~~/data/types";
+  import _discography from "@/data/song_data.json";
+  const discography: SongData = _discography;
 
   const route = useRoute();
 
   const songId = route.params.song_id;
-  const songData = discography["songs"][songId];
+  if (typeof songId !== "string") { throw new TypeError("songId parameter is not a string"); }
+  const songData = discography.songs[songId];
 
   definePageMeta({ layout: "music" });
 </script>
