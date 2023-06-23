@@ -13,15 +13,16 @@
     technologies="Vue, Nuxt, TailwindCSS"
     >
       <p>It's a website! It's made with Vue and Nuxt! And Tailwind! Yaaay!!!</p>
-      <p>Um, I mean this iteration of my website is meant to be a more cohesive and clean construction than my previous one. It utilizes Vue to replace the template rending from my previous website, and Nuxt makes it all static with practically zero JavaScript in the final build!</p>
+      <p>Um, I mean this iteration of my website is meant to be a more cohesive and clean construction than my previous one. It utilizes Vue to replace the template rendering from my previous website, and Nuxt makes it all static with practically zero JavaScript in the final build!</p>
     </ProjectsEntry>
     <ProjectsEntry
     title="Heart2Heart"
     timeframe="24 February 2023 - Ongoing"
     languages="Godot/GDScript"
+    image-link="/images/projects/titlescreen.apng"
+    image-alt="The Heart2Heart Title Screen"
     >
-      <p>TODO picture</p>
-      <p>Heart2Heart is a game made for the 48-hour Chillennium 2023 Game Jam. It's a cutsey puzzle platformer where you control two characters and gain abilities by touching certain words, giving your characters emotions. It was super fun to make and it won Best In Originality at the game jam!</p>
+      <p>Heart2Heart is a game made for the 48-hour <NuxtLink to="https://itch.io/jam/chillennium-2023">Chillennium 2023 Game Jam</NuxtLink>. It's a cutsey puzzle-platformer where you control two characters and gain abilities by touching certain words, giving your characters emotions. It was super fun to make and it won Best In Originality at the game jam!</p>
       <p>This project would not have been possible without my amazing friends Anish, Lizzy, and Kat! I did the coding and music, Anish did the story and level design, Lizzy and Kat did the art and animations, and we all worked on the concept together. The game is made in the Godot Engine and is playable online at the link below. Give it a try!</p>
       <p><NuxtLink :to="nitroguy.socials.website.link + '/Heart2Heart'">Heart2Heart</NuxtLink></p>
       <p><NuxtLink :to="nitroguy.socials.github.link + '/Chillennium2023'">Heart2Heart (source) on GitHub</NuxtLink></p>
@@ -34,7 +35,7 @@
     technologies="FFmpeg"
     >
       <p>Xylem is yet another iteration entry in my longstanding tradition of making frontends to <NuxtLink to="https://ffmpeg.org/">FFmpeg</NuxtLink> that make it even more simple and convenient to use than it already is. Since I work with audio and video a lot, FFmpeg is extremely valuable to me and I am soooo thankful that it exists.</p>
-      <p>Many years ago, I wrote some Windows Batch scripts that let me drag and drop files onto the scripts to have them automatically convert audio files to the format I want and the bitrate I want. Since then, I've found that I sometimes need some more fine-tuned control over the conversions, and Xylem is my attempt to attain that without sacrificing simplicity and ease-of-use.</p>
+      <p>Many years ago, I wrote some Windows Batch scripts that let me drag and drop files onto the scripts to have them automatically convert audio files to the format I want and the bitrate I want. Since then, I've found that I sometimes need some more fine-tuned control over the conversions. Xylem is my attempt to attain that without sacrificing simplicity and ease-of-use.</p>
       <p>More specicially, it's a Python CLI tool that's super customizable and supports many ways to invoke it, like drag-and-drop (on Windows), stdout, and args. I even did some Registry Editor scripting to get it appear in Windows right-click menus! The GitHub repo's <NuxtLink :to="nitroguy.socials.github.link + '/Xylem#readme'">README</NuxtLink> does a much better job of explaining everything so go check it out!</p>
       <p><NuxtLink :to="nitroguy.socials.github.link + '/Xylem'">Xylem on GitHub</NuxtLink></p>
     </ProjectsEntry>
