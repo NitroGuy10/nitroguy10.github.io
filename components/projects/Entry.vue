@@ -14,12 +14,12 @@
 <template>
   <div :id="title" class="ProjectsEntry">
     <hr class="mb-8">
-    <div class="grid grid-cols-1 sm:grid-cols-2">
+    <h3 class="font-bold text-3xl mb-5"><a :href="'#' + title" class="no-underline hover:cursor-pointer">{{ props.title }}</a></h3>
+    <div :class="'grid grid-cols-1 text-xl text-zinc-400 mb-5 ' + (props.image2Link ? 'sm:grid-cols-3 ' : 'sm:grid-cols-2 ')">
       <div>
-        <h3 class="font-bold text-3xl mb-5"><a :href="'#' + title" class="no-underline hover:cursor-pointer">{{ props.title }}</a></h3>
-        <p class="font-semibold">{{ props.timeframe }}</p>
-        <p v-if="props.languages" class="font-semibold">{{ props.languages }}</p>
-        <p v-if="props.technologies" class="font-semibold">{{ props.technologies }}</p>
+        <p class="mb-0">{{ props.timeframe }}</p>
+        <p v-if="props.languages" class="mb-0">{{ props.languages }}</p>
+        <p v-if="props.technologies" class="mb-0">{{ props.technologies }}</p>
       </div>
       <div v-if="props.imageLink">
         <img :src="props.imageLink" :alt="props.imageAlt" class="h-fit">
@@ -28,6 +28,18 @@
         <img :src="props.image2Link" :alt="props.image2Alt" class="h-fit">
       </div>
     </div>
-    <slot />
+    <div class="mb-8">
+      <slot />
+    </div>
   </div>
 </template>
+
+<style>
+@tailwind components;
+
+@layer components {
+  .project-link {
+    @apply mb-0 text-xl text-zinc-400;
+  }
+}
+</style>
