@@ -3,7 +3,8 @@
   import _nitroguy from "@/data/nitroguy.json";
   const nitroguy: NitroGuy = _nitroguy;
 
-  const socialsToInclude = ["youtube", "soundcloud", "spotify", "github", "twitter", "musicTwitter", "website", "email"];
+  const socialsToInclude = ["youtube", "soundcloud", "spotify", "github", "twitter", "musicTwitter", "instagram", "website", "email"];
+  // TODO add instagram icon
   const allSocials = nitroguy.socials;
   const socials: Social[] = [];
   for (const socialName of socialsToInclude)

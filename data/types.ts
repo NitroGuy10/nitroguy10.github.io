@@ -42,10 +42,52 @@ export type Song = {
   collection: string
 }
 
+export type CollectionIncludingSongs = {
+  name: string,
+  songs: { [songName: string]: Song }
+  description?: string,
+  releaseDate?: string,
+  coverLink?: string,
+  streamLinks?: Links,
+  isFormalCollection: boolean
+}
+
 export type SongData = {
   format: {
     releaseDate: string
   },
   collections: { [collectionName: string]: Collection },
   songs: { [songName: string]: Song }
+}
+
+export function isSong (listing: Song|Collection): listing is Song
+{
+  return (listing as Song).collection !== undefined;
+}
+
+export function getCollectionsIncludingSongs (collections: { [collectionName: string]: Collection }, songs: { [songName: string]: Song }): { [collectionName: string]: CollectionIncludingSongs }
+{
+  const collectionsIncludingSongs: { [collectionName: string]: CollectionIncludingSongs } = {};
+  for (const collectionName in collections)
+  {
+    const collection = collections[collectionName];
+    collectionsIncludingSongs[collectionName] = {
+      name: collection.name,
+      songs: {},
+      description: collection.description,
+      releaseDate: collection.releaseDate,
+      coverLink: collection.coverLink,
+      streamLinks: collection.streamLinks,
+      isFormalCollection: collection.isFormalCollection
+    };
+  }
+  for (const songName in songs)
+  {
+    const song = songs[songName];
+    if (song.collection in collectionsIncludingSongs)
+    {
+      collectionsIncludingSongs[song.collection].songs[song.name] = song;
+    }
+  }
+  return collectionsIncludingSongs;
 }

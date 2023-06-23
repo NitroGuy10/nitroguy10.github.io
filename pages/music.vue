@@ -1,14 +1,75 @@
 <script lang="ts" setup>
-  import discography from "@/data/song_data.json";
+  import { format } from "date-fns";
+  import { NitroGuy, SongData, Song, Collection, CollectionIncludingSongs, isSong, getCollectionsIncludingSongs } from "@/data/types";
+  import _nitroguy from "@/data/nitroguy.json";
+  import _discography from "@/data/song_data.json";
+  const nitroguy: NitroGuy = _nitroguy;
+  const discography: SongData = _discography;
+
+  // Show collections as one listing, but show singles and remixes as their own listings
+  const collectionsIncludingSongs = getCollectionsIncludingSongs(discography.collections, discography.songs);
+  const listings: (Song|CollectionIncludingSongs)[] = [];
+  for (const collectionName in collectionsIncludingSongs)
+  {
+    const collection: CollectionIncludingSongs = collectionsIncludingSongs[collectionName];
+    if (collection.isFormalCollection)
+    {
+      listings.push(collection);
+    }
+    else
+    {
+      for (const songName in collection.songs)
+      {
+        const song: Song = collection.songs[songName];
+        listings.push(song);
+      }
+    }
+  }
+
+  // Sort by release date
+  listings.sort((a, b) => {
+    if (!a.releaseDate || !b.releaseDate)
+    {
+      throw new Error("Song or collection has no release date; cannot sort");
+    }
+
+    const aDate = new Date(a.releaseDate);
+    const bDate = new Date(b.releaseDate);
+
+    return aDate.getTime() - bDate.getTime();
+  });
+  listings.reverse();
+
+  function listingLink (listing: Collection|CollectionIncludingSongs|Song): string
+  {
+    // TODO replace spaces and make the urls like how they are on the old site
+    return "/" + (isSong(listing) ? "songs" : "collections") + "/" + listing.name;
+  }
 
   definePageMeta({ layout: "music" });
 </script>
 
 <template>
-  <div id="index">
-    <p>music</p>
-    <ul>
-      <li v-for="song of discography.songs"><NuxtLink :to="'./songs/' + song.name" class="text-blue-400 underline">{{ song.name }}</NuxtLink></li>
-    </ul>
+  <!-- TODO mobile styling -->
+  <div id="music">
+    <p>I produce EDM under the alias "The Sass".</p>
+    <p>If you wanna have a listen, check me out on <NuxtLink :to="nitroguy.socials.youtube.link">YouTube</NuxtLink>, <NuxtLink :to="nitroguy.socials.soundcloud.link">SoundCloud</NuxtLink>, and <NuxtLink :to="nitroguy.socials.spotify.link">Spotify</NuxtLink>.</p>
+    <p>Or, if you'd prefer, read about story behind each of my tracks (and download them too).</p>
+    <hr class="mb-10">
+
+    <div v-for="listing of listings" class="mb-10">
+      <div class="grid grid-cols-2">
+        <div>
+          <NuxtLink :to="listingLink(listing)" class="no-underline"><h1 class="text-5xl font-bold">{{ listing.name }}</h1></NuxtLink>
+          <p class="text-xl text-zinc-400">{{ listing.releaseDate ? format(new Date(listing.releaseDate), "d MMMM yyyy") : "something broke lol" }}</p>
+          <p>({{ isSong(listing) ? "Single" : (Object.keys(listing.songs).length + " songs") }})</p>
+        </div>
+        <div>
+          <NuxtLink :to="listingLink(listing)"><img :src="'/images/music/' + listing.coverLink" :alt="listing.name" width="250" height="250" class="ml-auto"></NuxtLink>
+        </div>
+      </div>
+    </div>
+
+    <p v-for="num of [1,2,3,4,5,6,7,8,9,0,9,8,8,7,7,12,1,1,1,3,3,2,2,3,2,3,1,3]">test</p>
   </div>
 </template>

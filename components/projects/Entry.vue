@@ -28,7 +28,7 @@
         <img :src="props.image2Link" :alt="props.image2Alt" class="h-fit">
       </div>
     </div>
-    <div class="mb-8">
+    <div class="mb-7">
       <slot />
     </div>
   </div>
@@ -39,7 +39,7 @@
 
 @layer components {
   .project-link {
-    @apply mb-0 text-xl text-zinc-400;
+    @apply mb-1 text-xl text-zinc-400;
   }
 }
 </style>

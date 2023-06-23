@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-  import { SongData } from "~~/data/types";
+  import { SongData } from "@/data/types";
   import _discography from "@/data/song_data.json";
   const discography: SongData = _discography;
 
