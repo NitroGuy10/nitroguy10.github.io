@@ -33,6 +33,7 @@ export type Collection = {
 
 export type Song = {
   name: string,
+  nameParenthesesLinebreak?: true,
   description: string,
   releaseDate: string,
   genre: string,

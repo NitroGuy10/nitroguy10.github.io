@@ -16,7 +16,7 @@
     <hr class="mb-8">
     <h3 class="font-bold text-3xl mb-5"><a :href="'#' + title" class="no-underline hover:cursor-pointer">{{ props.title }}</a></h3>
     <div :class="'grid grid-cols-1 text-xl text-zinc-400 mb-5 ' + (props.image2Link ? 'sm:grid-cols-3 ' : 'sm:grid-cols-2 ')">
-      <div>
+      <div :class="imageLink ? '' : 'col-span-2'">
         <p class="mb-0">{{ props.timeframe }}</p>
         <p v-if="props.languages" class="mb-0">{{ props.languages }}</p>
         <p v-if="props.technologies" class="mb-0">{{ props.technologies }}</p>

@@ -865,6 +865,7 @@
       },
       "Neddie - Figment (The Sass Remix)": {
          "name": "Neddie - Figment (The Sass Remix)",
+         "nameParenthesesLinebreak": true,
          "description": "A cinematic melodic dubstep remix of Neddie - Figment for his Figment Remix Contest. Definitely my most polished and well-constructed track yet. I think my production is improving O_o. This one actually placed first! I'm so grateful for all the support I've gotten from this tune! You guys are the best <3",
          "releaseDate": "2021-03-08",
          "genre": "Melodic Dubstep",
@@ -951,6 +952,7 @@
       },
       "Fishcracks - Accusations (The Sass Remix)": {
          "name": "Fishcracks - Accusations (The Sass Remix)",
+         "nameParenthesesLinebreak": true,
          "description": "A fun but melancholy remix in a UK dubstep-inspired style. I tried to step away from the crazy complex lead solos and frenzied arrangement I usually go for and I'm very happy I did. This one came together extremely quickly, and the result is a laid-back and emotional tune with a strong riff-based approach that I ended up really liking. Hope you enjoy!",
          "releaseDate": "2022-08-19",
          "genre": "Melodic Dubstep",

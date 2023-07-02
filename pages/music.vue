@@ -58,11 +58,20 @@
     <hr class="mb-10">
 
     <div v-for="listing of listings" class="mb-10">
-      <div class="grid grid-cols-2">
-        <div>
-          <NuxtLink :to="listingLink(listing)" class="no-underline"><h1 class="text-5xl font-bold">{{ listing.name }}</h1></NuxtLink>
-          <p class="text-xl text-zinc-400">{{ listing.releaseDate ? format(new Date(listing.releaseDate), "d MMMM yyyy") : "something broke lol" }}</p>
-          <p>({{ isSong(listing) ? "Single" : (Object.keys(listing.songs).length + " songs") }})</p>
+      <div class="grid grid-cols-3">
+        <div class="w-full col-span-2">
+          <NuxtLink :to="listingLink(listing)" class="no-underline">
+            <h1 v-if="!isSong(listing) || !listing.nameParenthesesLinebreak" class="text-2xl md:text-4xl font-bold mb-3">{{ listing.name }}</h1>
+            <h1 v-if="isSong(listing) && listing.nameParenthesesLinebreak" class="text-2xl md:text-4xl font-bold mb-0">{{ listing.name.split("(")[0] }}</h1>
+            <h1 v-if="isSong(listing) && listing.nameParenthesesLinebreak" class="text-2xl md:text-4xl font-bold mb-3">({{ listing.name.split("(").slice(1).join("") }}</h1>
+          </NuxtLink>
+          <p class="text-xl text-zinc-400 mb-0">{{ listing.releaseDate ? format(new Date(listing.releaseDate), "d MMMM yyyy") : "something broke lol" }}</p>
+          <p class="text-xl text-zinc-400">({{ isSong(listing) ? "Single" : (Object.keys(listing.songs).length + " songs") }})</p>
+          <!-- <ul v-if="!isSong(listing)" class="list-disc ml-16">
+            <li v-for="song in listing.songs">
+              <p class="mb-1 text-xl"><NuxtLink :to="listingLink(song)">{{ song.name }}</NuxtLink></p>
+            </li>
+          </ul> -->
         </div>
         <div>
           <NuxtLink :to="listingLink(listing)"><img :src="'/images/music/' + listing.coverLink" :alt="listing.name" width="250" height="250" class="ml-auto"></NuxtLink>
