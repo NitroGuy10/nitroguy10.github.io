@@ -939,7 +939,7 @@
                "link": "https://listen.tidal.com/album/237760077/track/237760078"
             },
             "amazonMusicLink": {
-               "type": "Amazon",
+               "type": "Amazon Music",
                "link": "https://www.amazon.com/dp/B0B6GNJP1W"
             },
             "iHeartRadioLink": {
@@ -998,7 +998,7 @@
                "link2": "https://tidal.com/browse/track/242339057"
             },
             "amazonMusicLink": {
-               "type": "Amazon",
+               "type": "Amazon Music",
                "link": "https://www.amazon.com/dp/B0B98XK79W",
                "link2": "https://www.amazon.com/dp/B0B94Y8PC8"
             },

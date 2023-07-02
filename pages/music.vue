@@ -1,6 +1,6 @@
 <script lang="ts" setup>
   import { format } from "date-fns";
-  import { NitroGuy, SongData, Song, Collection, CollectionIncludingSongs, isSong, getCollectionsIncludingSongs } from "@/data/types";
+  import { NitroGuy, SongData, Song, Collection, CollectionIncludingSongs, isSong, getCollectionsIncludingSongs, listingLink } from "@/data/types";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
   const nitroguy: NitroGuy = _nitroguy;
@@ -40,17 +40,10 @@
   });
   listings.reverse();
 
-  function listingLink (listing: Collection|CollectionIncludingSongs|Song): string
-  {
-    // TODO replace spaces and make the urls like how they are on the old site
-    return "/" + (isSong(listing) ? "songs" : "collections") + "/" + listing.name;
-  }
-
   definePageMeta({ layout: "music" });
 </script>
 
 <template>
-  <!-- TODO mobile styling -->
   <div id="music">
     <p>I produce EDM under the alias "The Sass".</p>
     <p>If you wanna have a listen, check me out on <NuxtLink :to="nitroguy.socials.youtube.link">YouTube</NuxtLink>, <NuxtLink :to="nitroguy.socials.soundcloud.link">SoundCloud</NuxtLink>, and <NuxtLink :to="nitroguy.socials.spotify.link">Spotify</NuxtLink>.</p>
@@ -78,7 +71,5 @@
         </div>
       </div>
     </div>
-
-    <p v-for="num of [1,2,3,4,5,6,7,8,9,0,9,8,8,7,7,12,1,1,1,3,3,2,2,3,2,3,1,3]">test</p>
   </div>
 </template>

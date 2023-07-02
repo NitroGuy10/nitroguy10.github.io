@@ -92,3 +92,9 @@ export function getCollectionsIncludingSongs (collections: { [collectionName: st
   }
   return collectionsIncludingSongs;
 }
+
+export function listingLink (listing: Collection|CollectionIncludingSongs|Song): string
+{
+  // TODO replace spaces and make the urls like how they are on the old site
+  return "/" + (isSong(listing) ? "songs" : "collections") + "/" + listing.name;
+}
