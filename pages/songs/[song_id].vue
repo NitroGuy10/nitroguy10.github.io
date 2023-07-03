@@ -6,6 +6,7 @@
   const discography: SongData = _discography;
   const nitroguy: NitroGuy = _nitroguy;
 
+  // TODO this is the problem
   const route = useRoute();
 
   const songId = route.params.song_id;
@@ -58,59 +59,5 @@
           <p v-for="link in song.downloadLinks" class="mb-2">(<NuxtLink :to="link.link">{{ link.type }}</NuxtLink>)</p>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
     </div>
 </template>

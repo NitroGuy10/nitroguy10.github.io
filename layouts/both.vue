@@ -1,3 +1,9 @@
+<script setup lang="ts">
+  useHead({
+    title: "NitroGuy / The Sass"
+  });
+</script>
+
 <template>
   <div id="root">
     <Body class="bg-zinc-900 text-zinc-300 overflow-y-scroll" />
