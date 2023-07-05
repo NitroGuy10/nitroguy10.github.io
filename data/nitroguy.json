@@ -7,7 +7,7 @@
         },
         "email": {
             "type": "Email",
-            "address": "nitroguysm(at)gmail.com",
+            "address": "nitroguysm at gmail dot com",
             "icon": "icons/mail.png"
         },
         "soundcloud": {

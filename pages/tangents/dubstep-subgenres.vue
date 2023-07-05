@@ -5,7 +5,7 @@
     <p>Here's a brief ramble about my favorite dubstep subgenres as of <span title="13 January 2023" class="underline decoration-dotted">right now</span>, with examples. Enjoy!</p>
     <br>
     <p>So first and foremost, I like dubstep that's melodic. That is, dubstep that has a sense of musical structure in the traditional sense, with things like melody and chord progressions playing as big a role in the music as does the dubstep sound design. By the way, I (and many dubstep enthusiasts) use the term "sound design" as a noun that describes synthesizers, "basses", or audio that has been meticulously crafted to produce unique a sound profile. In onomatopoeic terms, the stuff that goes wobwobwob or fshwskfptsk.</p>
-    <p>Anyway, a genre exists simply called "melodic dubstep" but some people, including myself, think that its name is a touch misleading as the vast majority of melodic dubstep sits considerably far from the rest of traditional dubstep. It usually has huge, epic-feeling chords and melodies while only having understated or sometimes nonexistent dubstep sound design. I'm <em>not the biggest fan</em> of this kind of dubstep.</p>
+    <p>Anyway, a genre exists simply called "melodic dubstep" or "melodub" but some people, including myself, think that its name is a touch misleading as the vast majority of melodic dubstep sits considerably far from the rest of traditional dubstep. It usually has huge, epic-feeling chords and melodies while only having understated or sometimes nonexistent dubstep sound design. As a result, it's probably the most "radio-friendly" dubstep subgenre, and while I do enjoy it from time to time, I'm <em>not the biggest fan</em> of this kind of dubstep.</p>
     <ul class="list-disc leading-relaxed ml-16">
       <li><NuxtLink to="https://youtu.be/hwigKZTXHZE">Seven Lions - Only Now (feat. Tyler Graves)</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/YalpWKnlWkQ">Rusherz - Breakthrough</NuxtLink></li>
@@ -28,16 +28,18 @@
     <ul class="list-disc leading-relaxed ml-16">
       <li><NuxtLink to="https://youtu.be/48-SYWOe2dQ">Chime - From Fairies To Fire VIP</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/zOqhHiGpt-s">Skybreak - Locomotive VIP</NuxtLink></li>
+      <li><NuxtLink to="https://youtu.be/sphRCHjOh2s">Vanatice - Katana </NuxtLink></li>
     </ul>
     <p>In the time since dubstep's mainstream popularity really died out around 2014, the subgenre that has really shot up to the forefront is "riddim" and its cousin "briddim" (brostep riddim). These subgenres often feature grating, metallic, atonal sounds that just repeat and repeat and repeat on and on and on in constant quarter- or eight-note patterns. I personally find most of this music incredibly <em>bland, boring, and tedious</em>. That being said, there are a few riddim tracks I like, kind of.</p>
     <ul class="list-disc leading-relaxed ml-16">
       <li><NuxtLink to="https://youtu.be/GsJp1ojMpLs">INFEKT - Goofball</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/DqbAtwij31s">Automhate - MOORG</NuxtLink> (I much prefer the second drop)</li>
+      <li><NuxtLink to="https://youtu.be/Vbm3Z7VALtA">Daeya - KAISER</NuxtLink></li>
     </ul>
     <p>While not a big fan of the aforementioned kinds of riddim, some artists like <NuxtLink to="https://open.spotify.com/artist/72JZ2BhMD9uBsizyfKiQEW?si=myl17pjDQXek1J9vBGdtdg">Jorei</NuxtLink> have really taken what is often a terribly predictable subgenre and have really breathed some new life into it and created incredibly exciting and original songs that aren't even in the same league as most other riddim.</p>
     <ul class="list-disc leading-relaxed ml-16">
-      <li><NuxtLink to="https://youtu.be/UuStoJvZKLU">Jorei - Golden Bow</NuxtLink> (the dubstep starts at 1:10 haha)</li>
-      <li><NuxtLink to="https://youtu.be/TAMLVHcaS8s">Jorei - Data Link</NuxtLink></li>
+      <li><NuxtLink to="https://youtu.be/fZHkmliR61k">Jorei - Golden Bow</NuxtLink> (the dubstep starts at 1:10 haha)</li>
+      <li><NuxtLink to="https://youtu.be/SgsigdfEr7U">Jorei - Data Link</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/N_9SbP9eAlA">Jorei - Liella Takoyaki</NuxtLink></li>
     </ul>
     <p>And finally, we arrive at the most ear-splitting, evil-sounding subgenre of music ever conceived. Tearout. I'm pretty 50/50 with tearout. I like tearout it when I'm in the mood for it. I'll let the music do the talking. <em>Prepare yourself</em>.</p>

@@ -103,3 +103,19 @@ export function listingLink (listing: Collection|CollectionIncludingSongs|Song):
   // TODO replace spaces and make the urls like how they are on the old site
   return "/" + (isSong(listing) ? "songs" : "collections") + "/" + safeName(listing.name);
 }
+
+export function getRealNames (songData: SongData): { [safeName: string]: string }
+{
+  const realNames: { [safeName: string]: string } = {};
+  for (const collectionName in songData.collections)
+  {
+    const collection = songData.collections[collectionName];
+    realNames[safeName(collection.name)] = collection.name;
+  }
+  for (const songName in songData.songs)
+  {
+    const song = songData.songs[songName];
+    realNames[safeName(song.name)] = song.name;
+  }
+  return realNames;
+}

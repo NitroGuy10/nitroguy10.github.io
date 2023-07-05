@@ -859,9 +859,38 @@
             "newgroundsLink": {
                "type": "Newgrounds",
                "link": "https://www.newgrounds.com/audio/listen/1058829"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/album/54a2Yki7Br7wUIDmeKXPaT"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/jump/1678990724?i=1678990725"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/the-sass/jump/jump/TRnrZ7fZllkptkK"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/album/421559487"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/track/284865161"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://www.amazon.com/dp/B0BZJR4FZR"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/the-sass-30060245/songs/jump-209823351/"
             }
          },
-         "collection": "Singles"
+         "collection": "Singles",
+         "isrc": "QZPJ32248826"
       },
       "Neddie - Figment (The Sass Remix)": {
          "name": "Neddie - Figment (The Sass Remix)",

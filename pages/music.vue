@@ -40,7 +40,7 @@
   });
   listings.reverse();
 
-  definePageMeta({ layout: "music" });
+  definePageMeta({ layout: "music-root" });
 </script>
 
 <template>

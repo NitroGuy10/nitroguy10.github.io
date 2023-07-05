@@ -1,16 +1,16 @@
 <script lang="ts" setup>
   import { format } from "date-fns";
-  import { SongData, NitroGuy, listingLink } from "@/data/types";
+  import { SongData, NitroGuy, listingLink, getRealNames } from "@/data/types";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
   const discography: SongData = _discography;
   const nitroguy: NitroGuy = _nitroguy;
 
-  // TODO this is the problem
   const route = useRoute();
 
-  const songId = route.params.song_id;
-  if (typeof songId !== "string") { throw new TypeError("songId parameter is not a string"); }
+  const safeSongID = route.params.song_id;
+  if (typeof safeSongID !== "string") { throw new TypeError("song_id parameter is not a string"); }
+  const songId = getRealNames(discography)[safeSongID];
   const song = discography.songs[songId];
   const songCollection = discography.collections[song.collection];
 

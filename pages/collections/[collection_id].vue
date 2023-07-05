@@ -2,16 +2,16 @@
   import { format } from "date-fns";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
-  import { NitroGuy, SongData, CollectionIncludingSongs, getCollectionsIncludingSongs, listingLink } from "@/data/types";
+  import { NitroGuy, SongData, CollectionIncludingSongs, getCollectionsIncludingSongs, listingLink, getRealNames } from "@/data/types";
   const nitroguy: NitroGuy = _nitroguy;
   const discography: SongData = _discography;
 
-  // TODO this is the problem
   const route = useRoute();
 
   const collectionsIncludingSongs = getCollectionsIncludingSongs(discography.collections, discography.songs);
-  const collectionId = route.params.collection_id;
-  if (typeof collectionId !== "string") { throw new TypeError("collectionId parameter is not a string"); }
+  const safeCollectionId = route.params.collection_id;
+  if (typeof safeCollectionId !== "string") { throw new TypeError("collection_id parameter is not a string"); }
+  const collectionId = getRealNames(discography)[safeCollectionId];
   const collection = collectionsIncludingSongs[collectionId];
   const collectionSongsList = Object.values(collection.songs);
 

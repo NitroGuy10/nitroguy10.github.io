@@ -8,7 +8,7 @@
   <div id="root">
     <Body class="bg-zinc-900 text-zinc-300 overflow-y-scroll" />
     <div id="page">
-      <NameHeader name="The Sass" href="/music" />
+      <NameHeader name="The Sass" href="/" />
       <div id="content" class="mx-auto p-4 max-w-4xl text-2xl">
         <slot />
         <br class="mt-10">

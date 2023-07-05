@@ -204,7 +204,7 @@
     languages="Python"
     technologies="BeautifulSoup"
     >
-      <p>tuscon (yes, you read that right, that really is the name) is a super-simple web-templating library. All it is is HTML files with parameters, if statements, and for loops. I talk about my (unfortunate) reason for creating tuscon in that <NuxtLink to="./articles/about_website.html">old article about my website</NuxtLink>.</p>
+      <p>tuscon (yes, you read that right, that really is the name) is a super-simple web-templating library. All it is is HTML files with parameters, if statements, and for loops. I talk about my (unfortunate) reason for creating tuscon in that <NuxtLink to="/articles/about_website.html">old article about my website</NuxtLink>.</p>
       <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/tuscon'">tuscon on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
