@@ -12,6 +12,7 @@
   if (typeof safeSongID !== "string") { throw new TypeError("song_id parameter is not a string"); }
   const songId = getRealNames(discography)[safeSongID];
   const song = discography.songs[songId];
+  if (!song) { throw new TypeError("Cannot find song\nsafeSongID: " + safeSongID + "\nsongID: " + songId + "\n"); }
   const songCollection = discography.collections[song.collection];
 
   const socialIcons: {[key: string]: string} = {};
