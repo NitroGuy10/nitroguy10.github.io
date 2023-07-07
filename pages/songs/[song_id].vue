@@ -27,8 +27,8 @@
 <template>
     <div>
       <div class="grid grid-cols-3">
-        <div class="col-span-2">
-          <h1 class="text-5xl font-bold mb-3">{{ song.name }}</h1>
+        <div class="col-span-2 mr-2 md:mr-4">
+          <h1 class="text-3xl md:text-5xl font-bold mb-3">{{ song.name }}</h1>
           <p class="text-xl text-zinc-400 mb-0">Released: {{ song.releaseDate ? format(new Date(song.releaseDate), "d MMMM yyyy") : "something broke lol" }}</p>
           <p class="text-xl text-zinc-400 mb-0">Genre: {{ song.genre }}</p>
           <p class="text-xl text-zinc-400 mb-3">Collection: <NuxtLink :to="listingLink(songCollection)">{{ songCollection.name }}</NuxtLink></p>

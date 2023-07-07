@@ -1040,6 +1040,77 @@
          "collection": "Remixes",
          "isrc": "GBWUL2244611",
          "recordLabel": "Novatone"
+      },
+      "Sharks & Skybreak & Paper Skies - Trinite (The Sass Remix)": {
+         "name": "Sharks & Skybreak & Paper Skies - Trinite (The Sass Remix)",
+         "nameParenthesesLinebreak": true,
+         "description": "Some vibe-y, multi-genre madness in this remix. Also maybe my record for most lead solos in a song. I've been a huge fan of Sharks, Skybreak, and Paper Skies for a long time now and their musical styles have had a big influence on me as a producer. These three are constantly pushing the limits in this scene and I'm super glad to have been able to remix a track made by all three of them! <3",
+         "releaseDate": "2023-05-15",
+         "genre": "Complextro / Progressive House",
+         "coverLink": "Trinite_Remix.png",
+         "downloadLinks": {
+            "mp3Link": {
+               "type": "mp3",
+               "link": "https://hypeddit.com/ngg2hn"
+            }
+         },
+         "streamLinks": {
+            "soundcloudLink": {
+               "type": "SoundCloud",
+               "link": "https://soundcloud.com/the-sass-music/sharks-skybreak-paper-skies-trinite-the-sass-remix"
+            }
+         },
+         "collection": "Remixes"
+      },
+      "Honky-Tonk": {
+         "name": "Honky-Tonk",
+         "description": "A jazzy, funky, stank-face-enducing melodic riddim-ish track! This one is actually reeeally old so I'm glad that it's finally out!",
+         "releaseDate": "2023-07-07",
+         "genre": "Melodic Riddim",
+         "coverLink": "Honky_Tonk.png",
+         "downloadLinks": {
+            "mp3Link": {
+               "type": "mp3",
+               "link": "https://hypeddit.com/8fgi4u"
+            }
+         },
+         "streamLinks": {
+            "youtubeLink": {
+               "type": "YouTube",
+               "link": "https://youtu.be/WIZC7Qjt8uU",
+               "link2": "https://youtu.be/ZGi2YzoSR-s"
+            },
+            "soundcloudLink": {
+               "type": "SoundCloud",
+               "link": "https://soundcloud.com/the-sass-music/honky-tonk"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/track/7dgAlra9RXRe1wGtG0GXyA?si=742e9f8be85743b5"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/accusations-the-sass-remix/1639221151?i=1639221153"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/the-sass/honky-tonk/honky-tonk/TRk4c6426g7jdvg"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/track/2359061305"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/track/303727131"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://www.amazon.com/dp/B0CBCQB3F8"
+            }
+         },
+         "collection": "Singles",
+         "isrc": "QZPJ32275910"
       }
    }
 }
