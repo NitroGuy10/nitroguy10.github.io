@@ -19,7 +19,7 @@
     title="Heart2Heart"
     timeframe="24 February 2023 - Ongoing"
     languages="Godot/GDScript"
-    image-link="/images/projects/titlescreen.apng"
+    image-link="/images/projects/titlescreen.gif"
     image-alt="The Heart2Heart Title Screen"
     >
       <p>Heart2Heart is a game made for the 48-hour <NuxtLink to="https://itch.io/jam/chillennium-2023">Chillennium 2023 Game Jam</NuxtLink>. It's a cutsey puzzle-platformer where you control two characters and gain abilities by touching certain words, giving your characters emotions. It was super fun to make and it won Best In Originality at the game jam!</p>
