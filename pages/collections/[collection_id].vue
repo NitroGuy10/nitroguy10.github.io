@@ -2,7 +2,7 @@
   import { format } from "date-fns";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
-  import { NitroGuy, SongData, CollectionIncludingSongs, getCollectionsIncludingSongs, listingLink, getRealNames } from "@/data/types";
+  import { NitroGuy, SongData, getCollectionsIncludingSongs, listingLink, getRealNames } from "@/data/types";
   const nitroguy: NitroGuy = _nitroguy;
   const discography: SongData = _discography;
 

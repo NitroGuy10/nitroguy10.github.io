@@ -18,7 +18,8 @@ export type NitroGuy = {
 export type Links = {
   [linkType: string]: {
     type: string,
-    link: string
+    link: string,
+    link2?: string,
   }
 }
 
@@ -33,14 +34,16 @@ export type Collection = {
 
 export type Song = {
   name: string,
-  nameParenthesesLinebreak?: true,
+  nameParenthesesLinebreak?: boolean,
   description: string,
   releaseDate: string,
   genre: string,
   coverLink: string,
   downloadLinks: Links,
   streamLinks: Links,
-  collection: string
+  collection: string,
+  isrc?: string,
+  recordLabel?: string
 }
 
 export type CollectionIncludingSongs = {
