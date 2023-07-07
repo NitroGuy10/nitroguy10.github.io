@@ -29,7 +29,9 @@ export type Collection = {
   releaseDate?: string,
   coverLink?: string,
   streamLinks?: Links,
-  isFormalCollection: boolean
+  isFormalCollection: boolean,
+  coverArtistName?: string,
+  coverArtistLink?: string
 }
 
 export type Song = {
@@ -43,7 +45,9 @@ export type Song = {
   streamLinks: Links,
   collection: string,
   isrc?: string,
-  recordLabel?: string
+  recordLabel?: string,
+  coverArtistName: string,
+  coverArtistLink?: string
 }
 
 export type CollectionIncludingSongs = {
@@ -53,7 +57,9 @@ export type CollectionIncludingSongs = {
   releaseDate?: string,
   coverLink?: string,
   streamLinks?: Links,
-  isFormalCollection: boolean
+  isFormalCollection: boolean,
+  coverArtistName?: string,
+  coverArtistLink?: string
 }
 
 export type SongData = {
@@ -82,7 +88,9 @@ export function getCollectionsIncludingSongs (collections: { [collectionName: st
       releaseDate: collection.releaseDate,
       coverLink: collection.coverLink,
       streamLinks: collection.streamLinks,
-      isFormalCollection: collection.isFormalCollection
+      isFormalCollection: collection.isFormalCollection,
+      coverArtistName: collection.coverArtistName,
+      coverArtistLink: collection.coverArtistLink
     };
   }
   for (const songName in songs)

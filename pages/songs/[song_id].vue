@@ -32,6 +32,7 @@
           <h1 class="text-3xl md:text-5xl font-bold mb-3">{{ song.name }}</h1>
           <p class="text-xl text-zinc-400 mb-0">Released: {{ song.releaseDate ? format(new Date(song.releaseDate), "d MMMM yyyy") : "something broke lol" }}</p>
           <p class="text-xl text-zinc-400 mb-0">Genre: {{ song.genre }}</p>
+          <p class="text-xl text-zinc-400 mb-0">Cover Artist: <NuxtLink :to="song.coverArtistLink" :class="song.coverArtistLink ? '' : 'no-underline'">{{ song.coverArtistName }}</NuxtLink></p>
           <p class="text-xl text-zinc-400 mb-3">Collection: <NuxtLink :to="listingLink(songCollection)">{{ songCollection.name }}</NuxtLink></p>
           <p class="hidden md:inline">{{ song.description }}</p>
         </div>
