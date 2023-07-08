@@ -1128,7 +1128,7 @@
             },
             "spotifyLink": {
                "type": "Spotify",
-               "link": "https://open.spotify.com/track/7dgAlra9RXRe1wGtG0GXyA?si=742e9f8be85743b5"
+               "link": "https://open.spotify.com/track/3bazBcQaAamkUB4idUp0WQ?si=7c2e9011b5024206"
             },
             "appleMusicLink": {
                "type": "Apple Music",
@@ -1149,6 +1149,10 @@
             "amazonMusicLink": {
                "type": "Amazon Music",
                "link": "https://www.amazon.com/dp/B0CBCQB3F8"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/the-sass-30060245/songs/honky-tonk-223946199/"
             }
          },
          "coverArtistName": "@layon__art",
