@@ -1082,6 +1082,55 @@
          "isrc": "GBWUL2244611",
          "recordLabel": "Novatone"
       },
+      "Pinwheel (Jazz-off Version)": {
+         "name": "Pinwheel (Jazz-off Version)",
+         "description": "The full title of this one is \"Skybreak, Atura & THREESIXTY - Pinwheel (Jazz-off Version) [feat. PlexusPlay, The Sass, CyberScythe]\". I was one of the three winners of the Pinwheel solo contest held by Skybreak, Atura, and THREESIXTY. My solo is the second one in the track! This was a super fun contest resulting in a super fun track. You all should go check out the other winners, as well as the original artists!",
+         "releaseDate": "2023-02-14",
+         "genre": "Jazztronica",
+         "coverLink": "Pinwheel_II.png",
+         "streamLinks": {
+            "youtubeLink": {
+               "type": "YouTube",
+               "link": "https://youtu.be/t-pxGG3OCdM"
+            },
+            "soundcloudLink": {
+               "type": "SoundCloud",
+               "link": "https://soundcloud.com/skybreakofficial/pinwheel-jazzoff"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/track/5LLK3kUrKIOVmXXekd6l3t"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/pinwheel-jazz-off-version-feat-skybreak-atura-threesixty/1671194296?i=1671194298"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/plexusplay-the-sass-and-cyberscythe/pinwheel-2/pinwheel-jazz-off-version-feat-skybreak-atura-and-threesixty/TRlxlbvvj7gr2d4"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/track/2145022687"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/track/276099843"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://www.amazon.com/dp/B0BVGF891J"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/skybreak-31252785/songs/pinwheel-jazz-off-version-203393196/"
+            }
+         },
+         "coverArtistName": "@amaryllis_no",
+         "coverArtistLink": "https://twitter.com/amaryllis_no",
+         "collection": "Remixes",
+         "isrc": "QZ5FN2377550"
+      },
       "Sharks & Skybreak & Paper Skies - Trinite (The Sass Remix)": {
          "name": "Sharks & Skybreak & Paper Skies - Trinite (The Sass Remix)",
          "nameParenthesesLinebreak": true,

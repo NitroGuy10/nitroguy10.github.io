@@ -57,8 +57,10 @@
           </ul>
         </div>
         <div>
-          <h2 class="text-3xl font-bold mb-3">Free Download</h2>
-          <p v-for="link in song.downloadLinks" class="mb-2">(<NuxtLink :to="link.link">{{ link.type }}</NuxtLink>)</p>
+          <div v-if="song.downloadLinks">
+            <h2 class="text-3xl font-bold mb-3">Free Download</h2>
+            <p v-for="link in song.downloadLinks" class="mb-2">(<NuxtLink :to="link.link">{{ link.type }}</NuxtLink>)</p>
+          </div>
         </div>
       </div>
     </div>

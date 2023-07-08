@@ -41,7 +41,7 @@ export type Song = {
   releaseDate: string,
   genre: string,
   coverLink: string,
-  downloadLinks: Links,
+  downloadLinks?: Links,
   streamLinks: Links,
   collection: string,
   isrc?: string,
