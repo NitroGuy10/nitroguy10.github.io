@@ -89,18 +89,6 @@
       <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/overthere'">overthere on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
-    title="overthere"
-    timeframe="19 December 2021 - 24 December 2021"
-    languages="Python, HTML, CSS, JavaScript"
-    technologies="Flask, SQLite"
-    image-link="/images/projects/overthere.png"
-    image-alt="The interface of overthere"
-    >
-      <p>I sat thinking hard and long about my life and my future. Finally, I came to a realization: "Hm, I should probably make something with a database." And overthere was born.</p>
-      <p>overthere is bit.ly/tinyurl clone-ish that lets you post multiple links on one page. It also has fun, memorable URLs like "exquisite-cow"&mdash;a feature inspired by <NuxtLink to="https://magic-wormhole.readthedocs.io/">Magic-Wormhole</NuxtLink>.</p>
-      <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/overthere'">overthere on GitHub</NuxtLink></p>
-    </ProjectsEntry>
-    <ProjectsEntry
     title="Supremely_Hexagonal"
     timeframe="28 October 2021 - 1 November 2021"
     languages="Java"

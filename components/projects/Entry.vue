@@ -22,10 +22,10 @@
         <p v-if="props.technologies" class="mb-0">{{ props.technologies }}</p>
       </div>
       <div v-if="props.imageLink">
-        <img :src="props.imageLink" :alt="props.imageAlt" class="h-fit w-auto">
+        <img :src="props.imageLink" :alt="props.imageAlt">
       </div>
       <div v-if="props.image2Link">
-        <img :src="props.image2Link" :alt="props.image2Alt" class="h-fit w-auto">
+        <img :src="props.image2Link" :alt="props.image2Alt">
       </div>
     </div>
     <div class="mb-7">
