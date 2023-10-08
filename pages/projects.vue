@@ -110,7 +110,7 @@
       <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/Peekaboo'">Peekaboo on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
-    title="Peekaboo"
+    title="Vegas-Scripts"
     timeframe="26 July 2021 - 16 August 2021"
     languages="C#"
     technologies="Windows Forms, VEGAS Pro Script API"
@@ -124,7 +124,7 @@
     </ProjectsEntry>
     <ProjectsEntry
     title="nitroguy10.github.io"
-    timeframe="11 December 2016 - Ongoing (TODO sunset date hehe)"
+    timeframe="11 December 2016 - 7 July 2023"
     languages="Python, HTML, Sass, JavaScript"
     technologies="Jinja"
     >
