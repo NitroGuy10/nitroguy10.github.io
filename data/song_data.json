@@ -42,6 +42,34 @@
             "soundcloudLink": {
                "type": "SoundCloud",
                "link": "https://soundcloud.com/the-sass-music/sets/candy-fractals-ep"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/album/4zKXGkQLV9Exl4x5sPypGm"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/candy-fractals-single/1723417137"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/the-sass/candy-fractals/ALw5V6gXZ6Zd9mV"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/album/529082162"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/album/337508182"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://www.amazon.com/dp/B0CR5MVRDT"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/the-sass-30060245/albums/candy-fractals-249805066/"
             }
          },
          "coverArtistName": "@layon__art",
@@ -799,6 +827,34 @@
             "soundcloudLink": {
                "type": "SoundCloud",
                "link": "https://soundcloud.com/the-sass-music/candy-fractals"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/track/2JpzsfCy7NMwSXTVZ7RJvh"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/candy-fractals/1723417137?i=1723417138"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/the-sass/candy-fractals/candy-fractals/TR55mXwJ79nhrc9"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/track/2602555122"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/track/337508183"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://amazon.com/music/player/albums/B0CR5MVRDT?&trackAsin=B0CR5WXS8V"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/the-sass-30060245/songs/candy-fractals-249805067/"
             }
          },
          "coverArtistName": "@layon__art",
@@ -829,6 +885,34 @@
             "soundcloudLink": {
                "type": "SoundCloud",
                "link": "https://soundcloud.com/the-sass-music/soaring"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/track/2uIYKTXQfRuwdlMK955pcn"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/soaring/1723417137?i=1723417139"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/the-sass/candy-fractals/soaring/TRrKPbXP9P54Z76"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/track/2602555132"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/track/337508184"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://amazon.com/music/player/albums/B0CR5MVRDT?&trackAsin=B0CR5HXK4M"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/the-sass-30060245/songs/soaring-249805068/"
             }
          },
          "coverArtistName": "@layon__art",
@@ -859,6 +943,34 @@
             "soundcloudLink": {
                "type": "SoundCloud",
                "link": "https://soundcloud.com/the-sass-music/endless-ft-vishnu"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/track/6gkYmbSamb82uNtysULEsL"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/endless/1723417137?i=1723417140"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/the-sass/candy-fractals/endless/TR4d2PJ5vfkwKjq"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/track/2602555142"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/track/337508185"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://amazon.com/music/player/albums/B0CR5MVRDT?&trackAsin=B0CR5H3F5F"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/the-sass-30060245/songs/endless-249805069/"
             }
          },
          "coverArtistName": "@layon__art",
