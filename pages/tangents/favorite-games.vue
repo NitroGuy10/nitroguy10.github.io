@@ -27,6 +27,8 @@
       <li>Rick Rocketson</li>
       <li>Super Mario 64</li>
       <li>Renzhe</li>
+      <li>Chocolatier 2: Secret Ingredients</li>
+      <li>Chocolatier 3: Decadence by Design</li>
     </ul>
   </div>
 </template>
