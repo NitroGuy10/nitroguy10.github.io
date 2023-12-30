@@ -1,4 +1,0 @@
-# Using ImageMagick
-convert -delay 10 -loop 0 -layers Optimize titlescreen-*.png titlescreen.gif
-# I had to use Ubuntu WSL to get -layers Optimize to work on Windows
-# I tried to do it with APNGs but I can't get it to loop... but who cares; the GIFs are already so tiny
