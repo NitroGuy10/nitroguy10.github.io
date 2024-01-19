@@ -1320,6 +1320,66 @@
          "coverArtistLink": "https://www.instagram.com/layon__art/",
          "collection": "Singles",
          "isrc": "QZPJ32275910"
+      },
+      "Defunct": {
+         "name": "Defunct",
+         "description": "My attempt at a simple-but-effective future riddim track, complete with my usual contemplative chords and ample lead and piano solos. Also I'm trying to resist the urge to make all of my songs in a half-key but I just can't lol",
+         "releaseDate": "2024-01-19",
+         "genre": "Future Riddim",
+         "coverLink": "Defunct.png",
+         "downloadLinks": {
+            "mp3Link": {
+               "type": "mp3",
+               "link": "https://drive.google.com/file/d/1lbTPPNFlRzUHpLTbrchjzdAhoBpyCR81/view?usp=drive_link"
+            },
+            "wavLink": {
+               "type": "wav",
+               "link": "https://drive.google.com/file/d/1BDzz4mHb9r_7sz7bP9zTJ-vTzIHgBC_U/view?usp=drive_link"
+            }
+         },
+         "streamLinks": {
+            "youtubeLink": {
+               "type": "YouTube",
+               "link": "https://youtu.be/plLcIvI-feo",
+               "link2": "https://youtu.be/2brSqEaeGnY"
+            },
+            "soundcloudLink": {
+               "type": "SoundCloud",
+               "link": "https://soundcloud.com/the-sass-music/defunct"
+            },
+            "spotifyLink": {
+               "type": "Spotify",
+               "link": "https://open.spotify.com/track/6FNygo4B0aAB8n9atGQ5n3?si=7885b49860ef45c5"
+            },
+            "appleMusicLink": {
+               "type": "Apple Music",
+               "link": "https://music.apple.com/us/album/defunct/1724498295?i=1724498417"
+            },
+            "pandoraLink": {
+               "type": "Pandora",
+               "link": "https://www.pandora.com/artist/the-sass/defunct/defunct/TRK3VPj6k73gP99"
+            },
+            "deezerLink": {
+               "type": "Deezer",
+               "link": "https://www.deezer.com/us/track/2610789952"
+            },
+            "tidalLink": {
+               "type": "Tidal",
+               "link": "https://tidal.com/browse/track/338628563"
+            },
+            "amazonMusicLink": {
+               "type": "Amazon Music",
+               "link": "https://www.amazon.com/dp/B0CRNKSC3L"
+            },
+            "iHeartRadioLink": {
+               "type": "iHeartRadio",
+               "link": "https://www.iheart.com/artist/the-sass-30060245/songs/defunct-250718532"
+            }
+         },
+         "coverArtistName": "@layon__art",
+         "coverArtistLink": "https://www.instagram.com/layon__art/",
+         "collection": "Singles",
+         "isrc": "QZPJ32328310"
       }
    }
 }
