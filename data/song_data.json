@@ -822,7 +822,8 @@
          "streamLinks": {
             "youtubeLink": {
                "type": "YouTube",
-               "link": "https://youtu.be/_nC0nNW-6Qg"
+               "link": "https://youtu.be/_nC0nNW-6Qg",
+               "link2": "https://youtu.be/iU4_8t7ENjg"
             },
             "soundcloudLink": {
                "type": "SoundCloud",
@@ -865,7 +866,7 @@
          "name": "Soaring",
          "description": "Another one of those nondescript EDM tunes, huh? This was the first song I started from the EP and it was then that my production reached a turning point. I got myself some new samples, new plugins (namely Serum), and I finally figured out that the default Fruity Limiter settings alone may not be the best for mastering lol.",
          "releaseDate": "2020-06-26",
-         "genre": "Electro House",
+         "genre": "Future Bass?",
          "coverLink": "candy_fractals_cover_final.png",
          "downloadLinks": {
             "mp3Link": {
@@ -880,7 +881,8 @@
          "streamLinks": {
             "youtubeLink": {
                "type": "YouTube",
-               "link": "https://youtu.be/ushAx6Bljwk"
+               "link": "https://youtu.be/ushAx6Bljwk",
+               "link2": "https://youtu.be/fZsiEIo8Ouk"
             },
             "soundcloudLink": {
                "type": "SoundCloud",
@@ -938,7 +940,8 @@
          "streamLinks": {
             "youtubeLink": {
                "type": "YouTube",
-               "link": "https://youtu.be/SSRHiM3Tujo"
+               "link": "https://youtu.be/SSRHiM3Tujo",
+               "link2": "https://youtu.be/g1-NeI5drR8"
             },
             "soundcloudLink": {
                "type": "SoundCloud",
