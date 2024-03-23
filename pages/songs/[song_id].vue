@@ -1,6 +1,6 @@
 <script lang="ts" setup>
   import { format } from "date-fns";
-  import { SongData, NitroGuy, listingLink, getRealNames } from "@/data/types";
+  import { type SongData, type NitroGuy, listingLink, getRealNames } from "@/data/types";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
   const discography: SongData = _discography;

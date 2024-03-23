@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-  import { NitroGuy, Social } from "@/data/types";
+  import { type NitroGuy, type Social } from "@/data/types";
   import _nitroguy from "@/data/nitroguy.json";
   const nitroguy: NitroGuy = _nitroguy;
 
