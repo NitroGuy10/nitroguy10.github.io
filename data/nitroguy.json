@@ -7,7 +7,7 @@
         },
         "email": {
             "type": "Email",
-            "address": "nitroguysm(at)gmail.com",
+            "address": "nitroguysm at gmail dot com",
             "icon": "icons/mail.png"
         },
         "soundcloud": {
@@ -45,7 +45,7 @@
             "type": "Instagram",
             "link": "https://instagram.com/the_sass_music",
             "username": "@the_sass_music",
-            "icon": "icons/twitter.png"
+            "icon": "icons/instagram.png"
         },
         "newgrounds": {
             "type": "Newgrounds",

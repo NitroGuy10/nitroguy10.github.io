@@ -31,12 +31,13 @@
     >
       <p>It's a website! It's made with Vue and Nuxt! And Tailwind! Yaaay!!!</p>
       <p>Um, I mean this iteration of my website is meant to be a more cohesive and clean construction than my previous one. It utilizes Vue to replace the template rendering from my previous website, and Nuxt makes it all static with practically zero JavaScript in the final build!</p>
+      <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/nitroguy10.github.io'">nitroguy10.github.io on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
     title="Heart2Heart"
     timeframe="24 February 2023 - Ongoing"
     languages="Godot/GDScript"
-    image-link="/images/projects/titlescreen.apng"
+    image-link="/images/projects/titlescreen.gif"
     image-alt="The Heart2Heart Title Screen"
     >
       <p>Heart2Heart is a game made for the 48-hour <NuxtLink to="https://itch.io/jam/chillennium-2023">Chillennium 2023 Game Jam</NuxtLink>. It's a cutsey puzzle-platformer where you control two characters and gain abilities by touching certain words, giving your characters emotions. It was super fun to make and it won Best In Originality at the game jam!</p>
@@ -106,18 +107,6 @@
       <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/overthere'">overthere on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
-    title="overthere"
-    timeframe="19 December 2021 - 24 December 2021"
-    languages="Python, HTML, CSS, JavaScript"
-    technologies="Flask, SQLite"
-    image-link="/images/projects/overthere.png"
-    image-alt="The interface of overthere"
-    >
-      <p>I sat thinking hard and long about my life and my future. Finally, I came to a realization: "Hm, I should probably make something with a database." And overthere was born.</p>
-      <p>overthere is bit.ly/tinyurl clone-ish that lets you post multiple links on one page. It also has fun, memorable URLs like "exquisite-cow"&mdash;a feature inspired by <NuxtLink to="https://magic-wormhole.readthedocs.io/">Magic-Wormhole</NuxtLink>.</p>
-      <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/overthere'">overthere on GitHub</NuxtLink></p>
-    </ProjectsEntry>
-    <ProjectsEntry
     title="Supremely_Hexagonal"
     timeframe="28 October 2021 - 1 November 2021"
     languages="Java"
@@ -139,7 +128,7 @@
       <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/Peekaboo'">Peekaboo on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
-    title="Peekaboo"
+    title="Vegas-Scripts"
     timeframe="26 July 2021 - 16 August 2021"
     languages="C#"
     technologies="Windows Forms, VEGAS Pro Script API"
@@ -153,11 +142,12 @@
     </ProjectsEntry>
     <ProjectsEntry
     title="nitroguy10.github.io"
-    timeframe="11 December 2016 - Ongoing (TODO sunset date hehe)"
+    timeframe="11 December 2016 - 7 July 2023"
     languages="Python, HTML, Sass, JavaScript"
     technologies="Jinja"
     >
       <p>Imagine doing web development for over 5 years without touching React or Vue anything like that, right guys? Heh heh heh (that was me). I did this big restructuring of my website in 2020 that used Jinja templates for all the pages! It was a pretty interesting learning process and it felt like a pretty clean solution... at the time. Either way, it was a very fun and enlightening project&mdash;so much so that I wrote a whole article about it back when I did it. Check it out!</p>
+      <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/nitroguy10.github.io-jinja'">nitroguy10.github.io-jinja on GitHub</NuxtLink></p>
       <p class="project-link"><NuxtLink to="/articles/about_website.html">How This Website Was Made, A Story</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
@@ -221,7 +211,7 @@
     languages="Python"
     technologies="BeautifulSoup"
     >
-      <p>tuscon (yes, you read that right, that really is the name) is a super-simple web-templating library. All it is is HTML files with parameters, if statements, and for loops. I talk about my (unfortunate) reason for creating tuscon in that <NuxtLink to="./articles/about_website.html">old article about my website</NuxtLink>.</p>
+      <p>tuscon (yes, you read that right, that really is the name) is a super-simple web-templating library. All it is is HTML files with parameters, if statements, and for loops. I talk about my (unfortunate) reason for creating tuscon in that <NuxtLink to="/articles/about_website.html">old article about my website</NuxtLink>.</p>
       <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/tuscon'">tuscon on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
@@ -256,7 +246,7 @@
     >
       <p>Pi555 was my first Computer Engineering, microcontroller-type project thing and boy oh boy did I bite off more than I could chew with this one. Though intimidating, I was able to finish this project and I used to consider it my <em>magnum opus</em>. It is VERY cool, trust me.</p>
       <p>...okay so I can't exactly <em>show</em> it to you but I guess I can describe what it is. So, a <NuxtLink href="https://en.wikipedia.org/wiki/555_timer_IC">555 timer</NuxtLink> is a chip that can be used to generate a square wave at a given frequency. With the right configuration, you can get it to play a tone on a speaker. My goal for this project was to play music using the tone generated by the 555 timer. The way you'd change the pitch of the tone is by changing the resistance between two of the chip's pins and I used a digital potentiometer for this.</p>
-      <p>As if I hadn't already had my work cut out for me, knowing hardly anything about Computer Engineering stuff,I wanted to be able to use MIDI files as the source for the music. What all of this ultimately resulted inwas a Java program (probably should've used Python though) that read through a MIDI file and translated itinto something that the "music player" Java program could use. This "music player" program (which ran on aRaspberry PI) played the correct notes at the correct times on the 555 timer by sending bytes to the digitalpotentiometer through its GPIO pins.</p>
+      <p>As if I hadn't already had my work cut out for me, knowing hardly anything about Computer Engineering stuff, I wanted to be able to use MIDI files as the source for the music. What all of this ultimately resulted in was a Java program (probably should've used Python though) that read through a MIDI file and translated it into something that the "music player" Java program could use. This "music player" program (which ran on a Raspberry PI) played the correct notes at the correct times on the 555 timer by sending bytes to the digital potentiometer through its GPIO pins.</p>
       <p>And... yeah. It worked. And it was awesome. I really wish I had something else to show you here. Sorry!</p>
     </ProjectsEntry>
     <ProjectsEntry

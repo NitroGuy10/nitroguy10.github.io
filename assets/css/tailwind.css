@@ -30,6 +30,8 @@
 body
 {
     font-family: "Arial", sans-serif;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 a

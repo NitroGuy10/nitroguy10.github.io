@@ -1,6 +1,6 @@
 <script lang="ts" setup>
   import { format } from "date-fns";
-  import { NitroGuy, SongData, Song, Collection, CollectionIncludingSongs, isSong, getCollectionsIncludingSongs, listingLink } from "@/data/types";
+  import { type NitroGuy, type SongData, type Song, type CollectionIncludingSongs, isSong, getCollectionsIncludingSongs, listingLink } from "@/data/types";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
   const nitroguy: NitroGuy = _nitroguy;
@@ -40,7 +40,7 @@
   });
   listings.reverse();
 
-  definePageMeta({ layout: "music" });
+  definePageMeta({ layout: "music-root" });
 </script>
 
 <template>

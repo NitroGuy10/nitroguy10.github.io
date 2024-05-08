@@ -18,7 +18,8 @@ export type NitroGuy = {
 export type Links = {
   [linkType: string]: {
     type: string,
-    link: string
+    link: string,
+    link2?: string,
   }
 }
 
@@ -28,19 +29,25 @@ export type Collection = {
   releaseDate?: string,
   coverLink?: string,
   streamLinks?: Links,
-  isFormalCollection: boolean
+  isFormalCollection: boolean,
+  coverArtistName?: string,
+  coverArtistLink?: string
 }
 
 export type Song = {
   name: string,
-  nameParenthesesLinebreak?: true,
+  nameParenthesesLinebreak?: boolean,
   description: string,
   releaseDate: string,
   genre: string,
   coverLink: string,
-  downloadLinks: Links,
+  downloadLinks?: Links,
   streamLinks: Links,
-  collection: string
+  collection: string,
+  isrc?: string,
+  recordLabel?: string,
+  coverArtistName: string,
+  coverArtistLink?: string
 }
 
 export type CollectionIncludingSongs = {
@@ -50,7 +57,9 @@ export type CollectionIncludingSongs = {
   releaseDate?: string,
   coverLink?: string,
   streamLinks?: Links,
-  isFormalCollection: boolean
+  isFormalCollection: boolean,
+  coverArtistName?: string,
+  coverArtistLink?: string
 }
 
 export type SongData = {
@@ -79,7 +88,9 @@ export function getCollectionsIncludingSongs (collections: { [collectionName: st
       releaseDate: collection.releaseDate,
       coverLink: collection.coverLink,
       streamLinks: collection.streamLinks,
-      isFormalCollection: collection.isFormalCollection
+      isFormalCollection: collection.isFormalCollection,
+      coverArtistName: collection.coverArtistName,
+      coverArtistLink: collection.coverArtistLink
     };
   }
   for (const songName in songs)
@@ -95,11 +106,26 @@ export function getCollectionsIncludingSongs (collections: { [collectionName: st
 
 export function safeName (title: string): string
 {
-  return title.toLowerCase().replaceAll("(", "").replaceAll(")", "").replaceAll(".", "").replaceAll(" ", "_");
+  return title.toLowerCase().replaceAll("(", "").replaceAll(")", "").replaceAll(".", "").replaceAll(" ", "_").replaceAll("&", "-");
 }
 
 export function listingLink (listing: Collection|CollectionIncludingSongs|Song): string
 {
-  // TODO replace spaces and make the urls like how they are on the old site
   return "/" + (isSong(listing) ? "songs" : "collections") + "/" + safeName(listing.name);
+}
+
+export function getRealNames (songData: SongData): { [safeName: string]: string }
+{
+  const realNames: { [safeName: string]: string } = {};
+  for (const collectionName in songData.collections)
+  {
+    const collection = songData.collections[collectionName];
+    realNames[safeName(collection.name)] = collection.name;
+  }
+  for (const songName in songData.songs)
+  {
+    const song = songData.songs[songName];
+    realNames[safeName(song.name)] = song.name;
+  }
+  return realNames;
 }

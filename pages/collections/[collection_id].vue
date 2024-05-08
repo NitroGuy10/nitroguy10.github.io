@@ -2,16 +2,16 @@
   import { format } from "date-fns";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
-  import { NitroGuy, SongData, CollectionIncludingSongs, getCollectionsIncludingSongs, listingLink } from "@/data/types";
+  import { type NitroGuy, type SongData, getCollectionsIncludingSongs, listingLink, getRealNames } from "@/data/types";
   const nitroguy: NitroGuy = _nitroguy;
   const discography: SongData = _discography;
 
-  // TODO this is the problem
   const route = useRoute();
 
   const collectionsIncludingSongs = getCollectionsIncludingSongs(discography.collections, discography.songs);
-  const collectionId = route.params.collection_id;
-  if (typeof collectionId !== "string") { throw new TypeError("collectionId parameter is not a string"); }
+  const safeCollectionId = route.params.collection_id;
+  if (typeof safeCollectionId !== "string") { throw new TypeError("collection_id parameter is not a string"); }
+  const collectionId = getRealNames(discography)[safeCollectionId];
   const collection = collectionsIncludingSongs[collectionId];
   const collectionSongsList = Object.values(collection.songs);
 
@@ -35,14 +35,14 @@
     <h1 class="text-5xl font-bold mb-3">{{ collection.name }}</h1>
     <p v-if="collection.releaseDate" class="text-xl text-zinc-400 mb-3">Released: {{ format(new Date(collection.releaseDate), "d MMMM yyyy") }}</p>
     <p class="mb-5">{{ collection.description }}</p>
-    <ul>
-      <li v-for="link in collection.streamLinks" class="mb-2">
+    <div class="grid sm:grid-cols-3 grid-cols-2">
+      <div v-for="link in collection.streamLinks" class="mb-2">
         <NuxtLink :to="link.link" class="no-underline">
           <img v-if="socialIcons[link.type]" :src="'/' + socialIcons[link.type]" width="30" height="30" class="inline mr-1">
           <span class="underline">{{ link.type }}</span>
         </NuxtLink>
-      </li>
-    </ul>
+      </div>
+    </div>
     <hr class="my-7">
     <div v-for="song of collectionSongsList" class="mb-10">
       <div class="grid grid-cols-3">

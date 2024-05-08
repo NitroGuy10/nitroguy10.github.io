@@ -1,17 +1,18 @@
 <script lang="ts" setup>
   import { format } from "date-fns";
-  import { SongData, NitroGuy, listingLink } from "@/data/types";
+  import { type SongData, type NitroGuy, listingLink, getRealNames } from "@/data/types";
   import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
   const discography: SongData = _discography;
   const nitroguy: NitroGuy = _nitroguy;
 
-  // TODO this is the problem
   const route = useRoute();
 
-  const songId = route.params.song_id;
-  if (typeof songId !== "string") { throw new TypeError("songId parameter is not a string"); }
+  const safeSongID = route.params.song_id;
+  if (typeof safeSongID !== "string") { throw new TypeError("song_id parameter is not a string"); }
+  const songId = getRealNames(discography)[safeSongID];
   const song = discography.songs[songId];
+  if (!song) { throw new TypeError("Cannot find song\nsafeSongID: " + safeSongID + "\nsongID: " + songId + "\n"); }
   const songCollection = discography.collections[song.collection];
 
   const socialIcons: {[key: string]: string} = {};
@@ -27,10 +28,11 @@
 <template>
     <div>
       <div class="grid grid-cols-3">
-        <div class="col-span-2">
-          <h1 class="text-5xl font-bold mb-3">{{ song.name }}</h1>
+        <div class="col-span-2 mr-2 md:mr-4">
+          <h1 class="text-3xl md:text-5xl font-bold mb-3">{{ song.name }}</h1>
           <p class="text-xl text-zinc-400 mb-0">Released: {{ song.releaseDate ? format(new Date(song.releaseDate), "d MMMM yyyy") : "something broke lol" }}</p>
           <p class="text-xl text-zinc-400 mb-0">Genre: {{ song.genre }}</p>
+          <p class="text-xl text-zinc-400 mb-0">Cover Artist: <NuxtLink :to="song.coverArtistLink" :class="song.coverArtistLink ? '' : 'no-underline'">{{ song.coverArtistName }}</NuxtLink></p>
           <p class="text-xl text-zinc-400 mb-3">Collection: <NuxtLink :to="listingLink(songCollection)">{{ songCollection.name }}</NuxtLink></p>
           <p class="hidden md:inline">{{ song.description }}</p>
         </div>
@@ -55,8 +57,10 @@
           </ul>
         </div>
         <div>
-          <h2 class="text-3xl font-bold mb-3">Free Download</h2>
-          <p v-for="link in song.downloadLinks" class="mb-2">(<NuxtLink :to="link.link">{{ link.type }}</NuxtLink>)</p>
+          <div v-if="song.downloadLinks">
+            <h2 class="text-3xl font-bold mb-3">Free Download</h2>
+            <p v-for="link in song.downloadLinks" class="mb-2">(<NuxtLink :to="link.link">{{ link.type }}</NuxtLink>)</p>
+          </div>
         </div>
       </div>
     </div>
