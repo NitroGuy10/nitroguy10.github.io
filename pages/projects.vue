@@ -7,6 +7,23 @@
     <h2 class="font-semibold text-3xl">A List of Some of My Projects With Informal Commentary</h2>
     <p>Hello! This is a list of some of my programming projects in roughly chronological order. This includes software, plugins, web apps, microcontroller projects, et cetera. Let me know if you have questions about anything and hope you enjoy!</p>
     <ProjectsEntry
+    title="Slither"
+    timeframe="LDJHASLKDJHLAISDUHFLIKSDULFKJHDSLKJFHL"
+    languages="TypeScript"
+    technologies="Svelte, SvelteKit, TailwindCSS, PostgreSQL"
+    >
+      <p></p>
+    </ProjectsEntry>
+    <ProjectsEntry
+    title="Rev Your Engines"
+    timeframe="LDJHASLKDJHLAISDUHFLIKSDULFKJHDSLKJFHL"
+    languages="Godot/GDScript"
+    >
+      <p>A fun little dodge-the-obstacles game made as an easter egg for the <NuxtLink to="https://hh23.tamuhack.org">HowdyHack2023</NuxtLink> website (drag the car to the right!) This game was made in like 2 days and I remember making the <NuxtLink :to="nitroguy.socials.github.link + '/Rev_Your_Engines/raw/main/assets/Music/electric_lounge.mp3'">music</NuxtLink> at 1 AM and spending 4 hours on it. The music for this game is actually up there with my favorite tracks I've made. The sprites, however, are kind of an eyesore and this is why I'm not an artist :p</p>
+      <p class="project-link"><NuxtLink to="https://hh23.tamuhack.org">HowdyHack2023</NuxtLink> (Drag the car to the right!)</p>
+      <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/Rev_Your_Engines'">Rev Your Engines on GitHub</NuxtLink></p>
+    </ProjectsEntry>
+    <ProjectsEntry
     title="My Website"
     timeframe="3 January 2023 - Ongoing"
     languages="HTML, TypeScript"
