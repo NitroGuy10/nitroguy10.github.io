@@ -8,18 +8,19 @@
     <p>Hello! This is a list of some of my programming projects in roughly chronological order. This includes software, plugins, web apps, microcontroller projects, et cetera. Let me know if you have questions about anything and hope you enjoy!</p>
     <ProjectsEntry
     title="Slither"
-    timeframe="LDJHASLKDJHLAISDUHFLIKSDULFKJHDSLKJFHL"
+    timeframe="29 November 2023 - 26 January 2024"
     languages="TypeScript"
     technologies="Svelte, SvelteKit, TailwindCSS, PostgreSQL"
     >
-      <p></p>
+      <p>Slither is a QR code scanning app for the <NuxtLink to="https://github.com/tamuhack-org/Ouroboros">Ouroboros</NuxtLink> hackathon registration system. It allows for hackathon organizers to check in hackers, view a hacker's registration info, scan for raffle entries, scan for meals and view dietary restrictions, and cool stuff like that. In my opinion, it's a very clean and concise full-stack SvelteKit project and I go back to it often whenever I forget how something works in Svelte lol</p>
+      <p class="project-link"><NuxtLink to="https://github.com/tamuhack-org/slither">Slither on GitHub</NuxtLink></p>
     </ProjectsEntry>
     <ProjectsEntry
     title="Rev Your Engines"
-    timeframe="LDJHASLKDJHLAISDUHFLIKSDULFKJHDSLKJFHL"
+    timeframe="8 July 2023 - 10 July 2023"
     languages="Godot/GDScript"
     >
-      <p>A fun little dodge-the-obstacles game made as an easter egg for the <NuxtLink to="https://hh23.tamuhack.org">HowdyHack2023</NuxtLink> website (drag the car to the right!) This game was made in like 2 days and I remember making the <NuxtLink :to="nitroguy.socials.github.link + '/Rev_Your_Engines/raw/main/assets/Music/electric_lounge.mp3'">music</NuxtLink> at 1 AM and spending 4 hours on it. The music for this game is actually up there with my favorite tracks I've made. The sprites, however, are kind of an eyesore and this is why I'm not an artist :p</p>
+      <p>A fun little dodge-the-obstacles game made as an easter egg for the <NuxtLink to="https://hh23.tamuhack.org">HowdyHack2023</NuxtLink> website (drag the car to the right!) This game was made in like 3 days and I remember making the <NuxtLink :to="nitroguy.socials.github.link + '/Rev_Your_Engines/raw/main/assets/Music/electric_lounge.mp3'">music</NuxtLink> at 1 AM and spending 4 hours on it. The music for this game is actually up there with my favorite tracks I've made. The sprites, however, are kind of an eyesore and this is why I'm not an artist :p</p>
       <p class="project-link"><NuxtLink to="https://hh23.tamuhack.org">HowdyHack2023</NuxtLink> (Drag the car to the right!)</p>
       <p class="project-link"><NuxtLink :to="nitroguy.socials.github.link + '/Rev_Your_Engines'">Rev Your Engines on GitHub</NuxtLink></p>
     </ProjectsEntry>
