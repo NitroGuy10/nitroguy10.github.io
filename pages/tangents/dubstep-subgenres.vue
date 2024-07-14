@@ -23,6 +23,7 @@
       <li><NuxtLink to="https://youtu.be/B6LLXF8RRNo">Distayne - Halo</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/n5nDQ4zRodY">Oliverse - Parachute (Skybreak Remix)</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/GdbPd5HoViE">Nejvex - Turntide</NuxtLink></li>
+      <li><NuxtLink to="https://youtu.be/cAetiI9Uks8">S&Oslash;NATA - FEEL IT</NuxtLInk></li>
     </ul>
     <p>Up until this point, everything's been primarily melodic. Now we take a detour to the more aggressive sort of demon noises you might have been dreading. I personally like both melodic and atonal dubstep. Let's start with what many would plainly call "dubstep", or I guess "brostep" if you want to be pedantic because real original dubstep is totally different blah blah blah.</p>
     <ul class="list-disc leading-relaxed ml-16">
@@ -30,11 +31,11 @@
       <li><NuxtLink to="https://youtu.be/zOqhHiGpt-s">Skybreak - Locomotive VIP</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/sphRCHjOh2s">Vanatice - Katana </NuxtLink></li>
     </ul>
-    <p>In the time since dubstep's mainstream popularity really died out around 2014, the subgenre that has really shot up to the forefront is "riddim" and its cousin "briddim" (brostep riddim). These subgenres often feature grating, metallic, atonal sounds that just repeat and repeat and repeat on and on and on in constant quarter- or eight-note patterns. I personally find most of this music incredibly <em>bland, boring, and tedious</em>. That being said, there are a few riddim tracks I like, kind of.</p>
+    <p>In the time since dubstep's mainstream popularity really died out around 2014, the subgenre that has really shot up to the forefront is "riddim" and its cousin "briddim" (brostep riddim). These subgenres often feature grating, metallic, atonal sounds that just repeat and repeat and repeat on and on and on in constant quarter- or eight-note patterns. I personally find most of this music incredibly <em>bland, boring, and tedious</em>. While I pretty much don't care for briddim at all, there are a few riddim tracks I like.</p>
     <ul class="list-disc leading-relaxed ml-16">
       <li><NuxtLink to="https://youtu.be/GsJp1ojMpLs">INFEKT - Goofball</NuxtLink></li>
       <li><NuxtLink to="https://youtu.be/DqbAtwij31s">Automhate - MOORG</NuxtLink> (I much prefer the second drop)</li>
-      <li><NuxtLink to="https://youtu.be/Vbm3Z7VALtA">Daeya - KAISER</NuxtLink></li>
+      <li><NuxtLink to="https://youtu.be/1CoY_p6Uank">Samplifire & Yakz - Menticide</NuxtLink></li>
     </ul>
     <p>While not a big fan of the aforementioned kinds of riddim, some artists like <NuxtLink to="https://open.spotify.com/artist/72JZ2BhMD9uBsizyfKiQEW?si=myl17pjDQXek1J9vBGdtdg">Jorei</NuxtLink> have really taken what is often a terribly predictable subgenre and have really breathed some new life into it and created incredibly exciting and original songs that aren't even in the same league as most other riddim.</p>
     <ul class="list-disc leading-relaxed ml-16">
@@ -55,7 +56,8 @@
       <li><NuxtLink to="https://youtu.be/dzHw5eV_Wf0">Sharks - In My Eyes</NuxtLink> (extremely clean and groovy but otherwise unclassifiable)</li>
       <li><NuxtLink to="https://youtu.be/HEN751X8eQQ">Jorei - qwiq1</NuxtLink> (crispy, crunchy, contemplative, yet aggressive)</li>
       <li><NuxtLink to="https://youtu.be/3QMWxKRv94c">Criminal Code &amp; muyu - FLIP DOWN</NuxtLink> (jazzy, funky J-EDM awesomeness)</li>
-      <li><NuxtLink to="https://youtu.be/AaNTHLZlESo">Distayne - Far Away</NuxtLink> (a genre called "complextro" that I like sometimes; my <em>favorite song of 2021</em>)</li>
+      <li><NuxtLink to="https://youtu.be/AaNTHLZlESo">Distayne - Far Away</NuxtLink> (a subgenre called "complextro" that I like sometimes; my <em>favorite song of 2021</em>)</li>
+      <li><NuxtLink to="https://youtu.be/qRv7_rKhH6k">Leotrix - Can't Sleep Alone At Night</NuxtLink> (a subgenre called "future riddim" that sits between color bass and riddim; I love this genre a lot too)</li>
     </ul>
     <p>- NitroGuy</p>
   </div>
