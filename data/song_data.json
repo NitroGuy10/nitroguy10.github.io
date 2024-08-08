@@ -1424,7 +1424,7 @@
 				},
 				"soundcloudLink": {
 					"type": "SoundCloud",
-					"link": ""
+					"link": "https://soundcloud.com/the-sass-music/im-coming-home"
 				},
 				"spotifyLink": {
 					"type": "Spotify",
