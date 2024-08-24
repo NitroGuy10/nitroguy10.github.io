@@ -106,7 +106,7 @@ export function getCollectionsIncludingSongs (collections: { [collectionName: st
 
 export function safeName (title: string): string
 {
-  return title.toLowerCase().replaceAll("(", "").replaceAll(")", "").replaceAll(".", "").replaceAll(" ", "_").replaceAll("&", "-");
+  return title.toLowerCase().replaceAll("(", "").replaceAll(")", "").replaceAll(".", "").replaceAll(" ", "_").replaceAll("&", "-").replaceAll("'", "");
 }
 
 export function listingLink (listing: Collection|CollectionIncludingSongs|Song): string
