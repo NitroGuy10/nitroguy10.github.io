@@ -1419,8 +1419,8 @@
 			"streamLinks": {
 				"youtubeLink": {
 					"type": "YouTube",
-					"link": "",
-					"link2": ""
+					"link": "https://youtu.be/El_kkntL7hw",
+					"link2": "https://youtu.be/KocqT1LNBK0"
 				},
 				"soundcloudLink": {
 					"type": "SoundCloud",
@@ -1428,31 +1428,31 @@
 				},
 				"spotifyLink": {
 					"type": "Spotify",
-					"link": ""
+					"link": "https://open.spotify.com/track/00Lw4ujf9WdBfwWSDRO0qB?si=e2c11b5ed52c4a10"
 				},
 				"appleMusicLink": {
 					"type": "Apple Music",
-					"link": ""
+					"link": "https://music.apple.com/us/album/im-coming-home-single/1762748158"
 				},
 				"pandoraLink": {
 					"type": "Pandora",
-					"link": ""
+					"link": "https://www.pandora.com/artist/the-sass/im-coming-home/im-coming-home/TR3wpz5lP63hnPK"
 				},
 				"deezerLink": {
 					"type": "Deezer",
-					"link": ""
+					"link": "https://www.deezer.com/us/track/2946500061"
 				},
 				"tidalLink": {
 					"type": "Tidal",
-					"link": ""
+					"link": "https://tidal.com/browse/track/381116721"
 				},
 				"amazonMusicLink": {
 					"type": "Amazon Music",
-					"link": ""
+					"link": "https://www.amazon.com/dp/B0DD2RLJCH"
 				},
 				"iHeartRadioLink": {
 					"type": "iHeartRadio",
-					"link": ""
+					"link": "https://www.iheart.com/artist/the-sass-30060245/songs/im-coming-home-283933556/"
 				}
 			},
 			"coverArtistName": "@yyanleii",
