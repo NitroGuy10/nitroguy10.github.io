@@ -14,21 +14,16 @@
     mobileClass = "nitroguy-the-sass-mobile";
   }
 
-  let fontSize = " text-9xl";
-  if (props.name === "NitroGuy / The Sass")
-  {
-    fontSize = " text-8xl";
-  }
 </script>
 
 <template>
     <div id="NameHeader">
-        <h1 :class="mobileClass + fontSize + ' font-bold text-center mb-5'"><a :href="props.href" class="no-underline">{{ props.name }}</a></h1>
+        <h1 :class="mobileClass + ' text-7xl font-bold text-center mb-2 mt-1'"><a :href="props.href" class="no-underline">{{ props.name }}</a></h1>
     </div>
 </template>
 
 <style>
-@media screen and (max-width: 640px)
+@media screen and (max-width: 360px)
 {
   .nitroguy-mobile
   {
@@ -41,11 +36,11 @@
   }
 }
 
-@media screen and (max-width: 1080px)
+@media screen and (max-width: 700px)
 {
   .nitroguy-the-sass-mobile
   {
-    font-size: 9vw;
+    font-size: 10vw;
   }
 }
 </style>

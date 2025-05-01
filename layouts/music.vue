@@ -9,7 +9,7 @@
     <Body class="bg-zinc-900 text-zinc-300 overflow-y-scroll" />
     <div id="page">
       <NameHeader name="The Sass" href="/music" />
-      <div id="content" class="mx-auto p-4 max-w-4xl text-2xl">
+      <div id="content" class="mx-auto p-4 max-w-4xl text-xl font-geist">
         <slot />
         <br class="mt-10">
       </div>

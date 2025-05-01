@@ -1,7 +1,13 @@
 import type { Config } from 'tailwindcss';
 
 export default <Partial<Config>> {
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        geist: ["Geist", "sans-serif"],
+      },
+    },
+  },
   plugins: [],
   content: [
     "@/components/**/*.{vue,js,ts}",
