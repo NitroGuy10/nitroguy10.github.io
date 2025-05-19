@@ -48,11 +48,11 @@
 {
   .nitroguy-the-sass-mobile
   {
-    font-size: 19vw;
+    font-size: 18vw;
   }
   .nitroguy-the-sass-mobile-header
   {
-    width: 98%;
+    width: 95vw;
     height: 30vw;
   }
 }
