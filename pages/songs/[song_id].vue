@@ -1,10 +1,8 @@
 <script lang="ts" setup>
   import { format } from "date-fns";
-  import { type SongData, type NitroGuy, listingLink, getRealNames } from "@/data/types";
-  import _nitroguy from "@/data/nitroguy.json";
+  import { type SongData, listingLink, getRealNames } from "@/data/types";
   import _discography from "@/data/song_data.json";
   const discography: SongData = _discography;
-  const nitroguy: NitroGuy = _nitroguy;
 
   const route = useRoute();
 
@@ -14,13 +12,6 @@
   const song = discography.songs[songId];
   if (!song) { throw new TypeError("Cannot find song\nsafeSongID: " + safeSongID + "\nsongID: " + songId + "\n"); }
   const songCollection = discography.collections[song.collection];
-
-  const socialIcons: {[key: string]: string} = {};
-  for (const socialName in nitroguy.socials)
-  {
-    const social = nitroguy.socials[socialName];
-    socialIcons[social.type] = social.icon;
-  }
 
   definePageMeta({ layout: "music" });
 </script>
@@ -50,7 +41,7 @@
           <ul>
             <li v-for="link in song.streamLinks" class="mb-2">
               <NuxtLink :to="link.link" class="no-underline">
-                <img v-if="socialIcons[link.type]" :src="'/' + socialIcons[link.type]" width="30" height="30" class="inline mr-1">
+                <SocialIcon :link-type="link.type" />
                 <span class="underline">{{ link.type }}</span>
               </NuxtLink>
             </li>

@@ -4,9 +4,11 @@ export type Social = {
   type: string,
   alternameName?: string,
   link?: string,
-  address?: string,
   username?: string,
-  icon: string
+  emailDomain?: string,
+  emailTld?: string,
+  icon: string,
+  color: string
 }
 
 export type NitroGuy = {

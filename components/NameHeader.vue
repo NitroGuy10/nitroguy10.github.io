@@ -17,8 +17,16 @@
 </script>
 
 <template>
-    <div id="NameHeader">
-        <h1 :class="mobileClass + ' text-7xl font-bold text-center mb-2 mt-1'"><a :href="props.href" class="no-underline">{{ props.name }}</a></h1>
+    <NuxtLink v-if="mobileClass === 'nitroguy-the-sass-mobile'" :to="props.href" class="no-underline block w-fit mx-auto">
+      <div id="NameHeader" class="block w-[380px] h-[110px] relative text-7xl font-bold text-white nitroguy-the-sass-mobile-header">
+        <h1 :class="mobileClass + ' opacity-[0.81] absolute top-0 left-0 mb-2 mt-1'">NitroGuy</h1>
+        <h1 :class="mobileClass + ' opacity-[0.81] absolute bottom-0 right-0 mb-2 mt-1'">The Sass</h1>
+        <!-- <p :class="mobileClass + ' opacity-[0.81] absolute bottom-0 left-0 mb-[16px] border-b border-l text-sm'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
+        <!-- <p :class="mobileClass + ' opacity-[0.81] absolute top-0 right-0 mb-2 mt-3 border-t border-r text-sm'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
+      </div>
+    </NuxtLink>
+    <div v-else id="NameHeader">
+        <h1 :class="mobileClass + ' text-7xl font-bold text-center mb-2 mt-1'"><NuxtLink :to="props.href" class="no-underline">{{ props.name }}</NuxtLink></h1>
     </div>
 </template>
 
@@ -36,11 +44,17 @@
   }
 }
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 390px)
 {
   .nitroguy-the-sass-mobile
   {
-    font-size: 10vw;
+    font-size: 19vw;
+  }
+  .nitroguy-the-sass-mobile-header
+  {
+    width: 98%;
+    height: 30vw;
   }
 }
+
 </style>

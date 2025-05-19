@@ -1,5 +1,6 @@
+
 <template>
-  <div id="favorite-games">
+  <div id="dubstep-subgenres">
     <h2 class="font-semibold text-3xl">Tangent: Dubstep Subgenres I Like</h2>
     <p>Despite what you may think, dubstep as a genre of electronic music is still thriving to this day! I personally think the underground dubstep scene is home to some of the most creative and powerful music there is. Dubstep has no rules, no arbitrary restrictions. Artists aren't limited by "normal" instruments and are free to let their creativity flow in both composition and sound design.</p>
     <p>Here's a brief ramble about my favorite dubstep subgenres as of <span title="13 January 2023" class="underline decoration-dotted">right now</span>, with examples. Enjoy!</p>
@@ -60,5 +61,6 @@
       <li><NuxtLink to="https://youtu.be/qRv7_rKhH6k">Leotrix - Can't Sleep Alone At Night</NuxtLink> (a subgenre called "future riddim" that sits between color bass and riddim; I love this genre a lot too)</li>
     </ul>
     <p>- NitroGuy</p>
+    <p class="text-right underline"><NuxtLink to="#top">Back to top</NuxtLink></p>
   </div>
 </template>

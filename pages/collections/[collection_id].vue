@@ -1,9 +1,7 @@
 <script lang="ts" setup>
   import { format } from "date-fns";
-  import _nitroguy from "@/data/nitroguy.json";
   import _discography from "@/data/song_data.json";
-  import { type NitroGuy, type SongData, getCollectionsIncludingSongs, listingLink, getRealNames } from "@/data/types";
-  const nitroguy: NitroGuy = _nitroguy;
+  import { type SongData, getCollectionsIncludingSongs, listingLink, getRealNames } from "@/data/types";
   const discography: SongData = _discography;
 
   const route = useRoute();
@@ -20,13 +18,6 @@
     collectionSongsList.reverse();
   }
 
-  const socialIcons: {[key: string]: string} = {};
-  for (const socialName in nitroguy.socials)
-  {
-    const social = nitroguy.socials[socialName];
-    socialIcons[social.type] = social.icon;
-  }
-
   definePageMeta({ layout: "music" });
 </script>
 
@@ -38,7 +29,7 @@
     <div class="grid sm:grid-cols-3 grid-cols-2">
       <div v-for="link in collection.streamLinks" class="mb-2">
         <NuxtLink :to="link.link" class="no-underline">
-          <img v-if="socialIcons[link.type]" :src="'/' + socialIcons[link.type]" width="30" height="30" class="inline mr-1">
+          <SocialIcon :link-type="link.type" />
           <span class="underline">{{ link.type }}</span>
         </NuxtLink>
       </div>
