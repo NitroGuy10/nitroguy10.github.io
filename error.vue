@@ -11,7 +11,7 @@
 
 <template>
   <div>
-    <Body class="bg-zinc-900 text-zinc-300 overflow-hidden select-none" />
+    <Body class="bg-zinc-900 select-none  doesnt-load-for-some-reason" />
 
     <div v-for="num in fourtyTimes" class="absolute top-0 left-0 bottom-0 right-0 spin-cw" :style="'animation-delay: -' + (num / 4) + 's;'">
       <p class="text-[3vh] hidden md:inline absolute top-[10%] left-1/2 -translate-x-1/2">{{ props.error.statusCode }}</p>
@@ -45,5 +45,10 @@
   }
   .spin-ccw {
     animation: spin-ccw 10s linear infinite;
+  }
+
+  .doesnt-load-for-some-reason {
+    color: #d4d4d8;
+    overflow: hidden;
   }
 </style>
