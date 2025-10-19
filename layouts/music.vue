@@ -3,14 +3,13 @@
     title: "The Sass"
   });
 
-  const route = useRoute();
 </script>
 
 <template>
   <div id="root">
     <Body class="bg-zinc-900 text-zinc-300 overflow-y-scroll" />
     <div id="page">
-      <NameHeader name="The Sass" :href="route.path == '/music' ? '/' : '/music'" />
+      <NameHeader name="The Sass" />
       <div id="content" class="mx-auto p-4 max-w-4xl text-xl font-geist">
         <slot />
         <br class="mt-10">

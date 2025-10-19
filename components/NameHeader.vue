@@ -1,7 +1,6 @@
 <script lang="ts" setup>
   const props = defineProps<{
-    name: string,
-    href: string
+    name: string
   }>();
 
   let mobileClass = "nitroguy-mobile";
@@ -14,10 +13,16 @@
     mobileClass = "nitroguy-the-sass-mobile";
   }
 
+  const route = useRoute();
+  const href = computed(() => {
+    // If user is on /songs or /collections, link to /music, else link to /
+    return (route.path.startsWith("/songs") || route.path.startsWith("/collections")) ? "/music" : "/";
+  });
+
 </script>
 
 <template>
-    <NuxtLink v-if="mobileClass === 'nitroguy-the-sass-mobile'" :to="props.href" class="no-underline block w-fit mx-auto">
+    <NuxtLink v-if="mobileClass === 'nitroguy-the-sass-mobile'" :to="href" class="no-underline block w-fit mx-auto">
       <div id="NameHeader" class="block w-[380px] h-[110px] relative text-7xl font-bold text-white nitroguy-the-sass-mobile-header">
         <h1 :class="mobileClass + ' opacity-[0.81] absolute top-0 left-0 mb-2 mt-1'">NitroGuy</h1>
         <h1 :class="mobileClass + ' opacity-[0.81] absolute bottom-0 right-0 mb-2 mt-1'">The Sass</h1>
@@ -26,7 +31,7 @@
       </div>
     </NuxtLink>
     <div v-else id="NameHeader">
-        <h1 :class="mobileClass + ' text-7xl font-bold text-center mb-2 mt-1'"><NuxtLink :to="props.href" class="no-underline">{{ props.name }}</NuxtLink></h1>
+        <h1 :class="mobileClass + ' text-7xl font-bold text-center mb-2 mt-1'"><NuxtLink :to="href" class="no-underline">{{ props.name }}</NuxtLink></h1>
     </div>
 </template>
 

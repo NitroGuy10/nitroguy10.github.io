@@ -118,6 +118,21 @@
             "link": "about:blank",
             "icon": "icons/bandcamp.svg",
             "color": "#000000"
+        },
+        "bluesky": {
+            "type": "Bluesky",
+            "link": "https://bsky.app/profile/nitroguy10.bsky.social",
+            "username": "@nitroguy10.bsky.social",
+            "icon": "icons/bluesky.svg",
+            "color": "#1DA1F2"
+        },
+        "musicBluesky": {
+            "type": "Bluesky",
+            "alternameName": "\"The Sass\" Bluesky",
+            "link": "https://bsky.app/profile/thesassmusic.bsky.social",
+            "username": "@thesassmusic.bsky.social",
+            "icon": "icons/bluesky.svg",
+            "color": "#475CF7"
         }
     }
 }

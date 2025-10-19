@@ -58,10 +58,6 @@
       link: "https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney_%E2%80%93_Trials_and_Tribulations"
     },
     {
-      name: "osu!",
-      link: "https://en.wikipedia.org/wiki/Osu!"
-    },
-    {
       name: "Overwatch",
       link: "https://en.wikipedia.org/wiki/Overwatch_(video_game)"
     },

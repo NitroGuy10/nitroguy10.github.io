@@ -2,7 +2,7 @@
   <div id="root">
     <Body class="bg-zinc-900 text-zinc-300 overflow-y-scroll" /> <!-- bg-zinc-800 -->
     <div id="page">
-      <NameHeader name="NitroGuy" href="/" />
+      <NameHeader name="NitroGuy" />
       <div id="content" class="mx-auto p-4 max-w-4xl text-xl font-geist">
         <slot />
         <br class="mt-10">
